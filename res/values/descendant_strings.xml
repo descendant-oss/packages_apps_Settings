@@ -185,4 +185,7 @@
      <string name="network_traffic_state_title">Network monitor</string>
      <string name="network_traffic_state_summary">Enables statusbar network monitor</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
 </resources>
