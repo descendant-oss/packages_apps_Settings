@@ -63,6 +63,7 @@
 
     <com.android.settingslib.RestrictedPreference
         android:key="manage_mobile_plan"
+        android:icon="@drawable/ic_manage_mobile_plan"
         android:title="@string/manage_mobile_plan_title"
         android:persistent="false"
         android:order="0"
@@ -111,6 +112,7 @@
 
     <com.android.settings.network.PrivateDnsModeDialogPreference
         android:key="private_dns_settings"
+        android:icon="@drawable/ic_dns"
         android:title="@string/select_private_dns_configuration_title"
         android:order="20"
         android:dialogTitle="@string/select_private_dns_configuration_dialog_title"

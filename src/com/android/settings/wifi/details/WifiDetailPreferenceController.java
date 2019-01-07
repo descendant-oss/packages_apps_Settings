@@ -696,6 +696,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
         }
         mRssiSignalLevel = signalLevel;
         Drawable wifiIcon = mIconInjector.getIcon(mRssiSignalLevel);
+        wifiIcon.setTintList(Utils.getColorAttr(mContext, android.R.attr.colorAccent));
 
         if (mEntityHeaderController != null) {
             mEntityHeaderController
@@ -704,9 +705,8 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
         }
 
         Drawable wifiIconDark = wifiIcon.getConstantState().newDrawable().mutate();
-        wifiIconDark.setTintList(Utils.getColorAttr(mContext, android.R.attr.colorControlNormal));
+        wifiIconDark.setTintList(Utils.getColorAttr(mContext, android.R.attr.colorAccent));
         mSignalStrengthPref.setIcon(wifiIconDark);
-
         mSignalStrengthPref.setSummary(mSignalStr[mRssiSignalLevel]);
         mSignalStrengthPref.setVisible(true);
     }
@@ -732,7 +732,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
         Drawable newIcon = new BitmapDrawable(null /*resource*/, bitmap);
 
         // config color for 87% black after enlarge
-        newIcon.setTintList(Utils.getColorAttr(mContext, android.R.attr.textColorPrimary));
+        newIcon.setTintList(Utils.getColorAttr(mContext, android.R.attr.colorAccent));
 
         return newIcon;
     }
