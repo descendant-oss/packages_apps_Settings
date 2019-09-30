@@ -107,7 +107,7 @@
     <PreferenceCategory
         android:key="configure_notifications_advanced"
         android:order="15"
-        settings:initialExpandedChildrenCount="0">
+        settings:initialExpandedChildrenCount="9999">
 
         <SwitchPreference
             android:key="silent_icons"

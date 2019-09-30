@@ -19,7 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/language_settings"
-    settings:initialExpandedChildrenCount="3">
+    settings:initialExpandedChildrenCount="9999">
 
     <Preference
         android:key="phone_language"
