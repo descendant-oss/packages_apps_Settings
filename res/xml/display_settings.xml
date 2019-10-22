@@ -135,6 +135,13 @@
         android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings" />
 
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="thumb_ui"
+        android:title="@string/thumb_ui_title"
+        android:icon="@drawable/ic_thumb_ui"
+        android:summary="@string/thumb_ui_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="lockscreen_from_display_settings"
         android:icon="@drawable/ic_lock_24dp"
