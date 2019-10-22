@@ -79,4 +79,8 @@
     <string name="descendant_idle_manager_title">Descendant Idle Manager</string>
     <string name="descendant_idle_manager_summary">Descendant\'s algorithm to ensure efficiency (recommended on)</string>
 
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Don't touch my heads-up"</string>
+    <string name="dont_touch_notification_summary">Avoid launching app after touching the heads-up</string>
+
 </resources>

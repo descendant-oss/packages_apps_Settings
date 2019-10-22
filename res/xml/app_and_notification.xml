@@ -86,6 +86,14 @@
         <intent android:action="android.intent.action.MANAGE_PERMISSIONS"/>
     </Preference>
 
+    <!-- Avoid touches on Headsup  -->
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="dont_touch_notification"
+        android:icon="@drawable/ic_dont_touch_notification"
+        android:title="@string/dont_touch_notification_title"
+        android:summary="@string/dont_touch_notification_summary"
+        android:defaultValue="false" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="app_and_notif_cell_broadcast_settings"
         android:icon="@drawable/ic_emergency_warn"
