@@ -46,8 +46,10 @@
                 android:id="@+id/main_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/main_content_side_margin"
+                android:layout_marginEnd="@dimen/main_content_side_margin"
                 android:animateLayoutChanges="true"
-                android:background="?android:attr/windowBackground"/>
+                android:background="@drawable/bashboard_tile_background"/>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

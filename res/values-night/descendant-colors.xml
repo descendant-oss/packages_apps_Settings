@@ -1,0 +1,4 @@
+<resources>
+    <!-- Descendant background -->
+    <color name="dashboard_background_color">#0c0c0c</color>
+</resources>

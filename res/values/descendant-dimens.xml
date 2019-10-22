@@ -1,0 +1,5 @@
+<resources>
+    <!-- Descendant background -->
+    <dimen name="dashboard_background_radius">26dp</dimen>
+    <dimen name="main_content_side_margin">16dp</dimen>
+</resources>
