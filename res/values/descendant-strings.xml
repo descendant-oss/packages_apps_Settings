@@ -75,4 +75,8 @@
     <string name="descendant_health_manager_title">Descendant Health Manager</string>
     <string name="descendant_health_manager_summary">This manager helps out users to figure out when and how to avoid their smartphone to interfere with their health</string>
 
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Descendant Idle Manager</string>
+    <string name="descendant_idle_manager_summary">Descendant\'s algorithm to ensure efficiency (recommended on)</string>
+
 </resources>

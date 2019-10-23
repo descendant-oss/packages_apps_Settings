@@ -52,6 +52,14 @@
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
 
+    <!-- Descendant idle Manager  -->
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="descendant_idle_manager"
+        android:icon="@drawable/ic_descendant_idle_manager"
+        android:title="@string/descendant_idle_manager_title"
+        android:summary="@string/descendant_idle_manager_summary"
+        android:defaultValue="true" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:title="@string/battery_last_full_charge"
