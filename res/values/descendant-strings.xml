@@ -71,4 +71,8 @@
     <string name="descendant_storage_manager_title">Descendant Storage Manager</string>
     <string name="descendant_storage_manager_summary">This manager will self-handle the junk your apps may generate.\nIt can coexhist with Android\'s default manager.</string>
 
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Descendant Health Manager</string>
+    <string name="descendant_health_manager_summary">This manager helps out users to figure out when and how to avoid their smartphone to interfere with their health</string>
+
 </resources>
