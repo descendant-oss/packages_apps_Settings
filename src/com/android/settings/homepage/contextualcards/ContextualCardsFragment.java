@@ -22,15 +22,21 @@ import static com.android.settings.homepage.contextualcards.ContextualCardsAdapt
 
 import android.app.settings.SettingsEnums;
 import android.content.BroadcastReceiver;
+import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.os.UserHandle;
+import android.provider.Settings;
+import android.provider.Settings.SettingNotFoundException;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
@@ -64,6 +70,9 @@ public class ContextualCardsFragment extends InstrumentedFragment implements
     private ContextualCardsAdapter mContextualCardsAdapter;
     private ContextualCardManager mContextualCardManager;
     private ItemTouchHelper mItemTouchHelper;
+    private ImageView mCardsIcon;
+    private ImageView mHideCards;
+    private boolean areCardsHidden;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -128,8 +137,41 @@ public class ContextualCardsFragment extends InstrumentedFragment implements
         mCardsContainer.setAdapter(mContextualCardsAdapter);
         mContextualCardManager.setListener(mContextualCardsAdapter);
         mCardsContainer.setListener(this);
+        mCardsContainer.setVisibility(getCardsVisibility() ? View.GONE : View.VISIBLE);
         mItemTouchHelper = new ItemTouchHelper(new SwipeDismissalDelegate(mContextualCardsAdapter));
         mItemTouchHelper.attachToRecyclerView(mCardsContainer);
+        mCardsIcon = rootView.findViewById(R.id.descendant_cards);
+        mCardsIcon.setImageResource(R.drawable.cards);
+        mHideCards = rootView.findViewById(R.id.descendant_hide_cards);
+        mHideCards.setImageResource(getCardsVisibility() ? R.drawable.show_cards : R.drawable.hide_cards);
+        mHideCards.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (getCardsVisibility()) {
+                    mCardsContainer.setVisibility(View.VISIBLE);
+                    mHideCards.setImageResource(R.drawable.hide_cards);
+                    setCardsVisibility(0);
+                } else {
+                    mCardsContainer.setVisibility(View.GONE);
+                    mHideCards.setImageResource(R.drawable.show_cards);
+                    setCardsVisibility(1);
+                }
+            }
+        });
+        mCardsIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (getCardsVisibility()) {
+                    mCardsContainer.setVisibility(View.VISIBLE);
+                    mHideCards.setImageResource(R.drawable.hide_cards);
+                    setCardsVisibility(0);
+                } else {
+                    mCardsContainer.setVisibility(View.GONE);
+                    mHideCards.setImageResource(R.drawable.show_cards);
+                    setCardsVisibility(1);
+                }
+            }
+        });
 
         return rootView;
     }
@@ -239,5 +281,18 @@ public class ContextualCardsFragment extends InstrumentedFragment implements
             }
             resetSession(context);
         }
+    }
+
+    private boolean getCardsVisibility() {
+        try {
+            areCardsHidden = Settings.System.getIntForUser(getContext().getContentResolver(),Settings.System.HIDDEN_CARDS, UserHandle.USER_CURRENT) == 1;
+        } catch (SettingNotFoundException e) {
+            areCardsHidden = true;
+        }
+        return areCardsHidden;
+    }
+
+    private void setCardsVisibility(int state) {
+        Settings.System.putIntForUser(getContext().getContentResolver(),Settings.System.HIDDEN_CARDS, state, UserHandle.USER_CURRENT);
     }
 }
