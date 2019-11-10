@@ -21,7 +21,6 @@
 
     <com.android.settings.widget.SwitchBar
         android:id="@+id/switch_bar"
-        android:minHeight="?android:attr/actionBarSize"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:paddingStart="0dp"
