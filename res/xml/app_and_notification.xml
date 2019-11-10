@@ -37,7 +37,7 @@
         android:layout="@layout/app_entities_header"
         android:selectable="false"
         android:order="-998"
-        settings:allowDividerBelow="true"
+        settings:allowDividerBelow="false"
         settings:controller="com.android.settings.applications.RecentAppsPreferenceController"/>
 
     <!-- Empty category to draw divider -->

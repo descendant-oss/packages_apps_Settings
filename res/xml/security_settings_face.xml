@@ -73,16 +73,16 @@
             android:title="@string/security_settings_face_settings_remove_face_data"
             android:selectable="false"
             android:layout="@layout/face_remove_button"
-            settings:allowDividerBelow="true"/>
+            settings:allowDividerBelow="false"/>
 
         <com.android.settingslib.widget.LayoutPreference
             android:key="security_settings_face_enroll_faces_container"
             android:title="@string/security_settings_face_settings_enroll"
             android:selectable="false"
             android:layout="@layout/face_enroll_button"
-            settings:allowDividerBelow="true"/>
+            settings:allowDividerBelow="false"/>
     </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
-        settings:allowDividerAbove="true"/>
+        settings:allowDividerAbove="false"/>
 </PreferenceScreen>

@@ -72,7 +72,7 @@
         android:icon="@drawable/ic_legal_info"
         android:title="@string/legal_information"
         android:fragment="com.android.settings.LegalSettings"
-        settings:allowDividerAbove="true"/>
+        settings:allowDividerAbove="false"/>
 
     <!-- Regulatory labels -->
     <Preference
@@ -101,7 +101,7 @@
         settings:keywords="@string/keywords_sim_status"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:allowDividerAbove="true"/>
+        settings:allowDividerAbove="false"/>
 
     <!-- Model & hardware -->
     <Preference
@@ -143,7 +143,7 @@
         android:title="@string/wifi_ip_address"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:enableCopying="true"/>
 
     <!-- Wi-Fi MAC address -->
@@ -223,6 +223,7 @@
         android:icon="@drawable/ic_build_nr"
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
+        settings:allowDividerAbove="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
 

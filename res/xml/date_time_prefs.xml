@@ -45,7 +45,7 @@
         android:key="auto_zone"
         android:icon="@drawable/ic_time_zone"
         android:title="@string/zone_auto_title"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:userRestriction="no_config_date_time"/>
 
     <com.android.settingslib.RestrictedPreference

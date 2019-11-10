@@ -44,7 +44,7 @@
         android:title="@string/user_add_on_lockscreen_menu"
         android:singleLineTitle="false"
         android:order="105"
-        settings:allowDividerAbove="true"/>
+        settings:allowDividerAbove="false"/>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="multiuser_footer"

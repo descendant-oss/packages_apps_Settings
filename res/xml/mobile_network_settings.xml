@@ -40,7 +40,7 @@
             android:key="calls_preference"
             android:title="@string/calls_preference"
             settings:controller="com.android.settings.network.telephony.CallsDefaultSubscriptionController"
-            settings:allowDividerAbove="true"/>
+            settings:allowDividerAbove="false"/>
 
         <ListPreference
             android:key="sms_preference"
@@ -51,7 +51,7 @@
             android:key="cdma_lte_data_service_key"
             android:title="@string/cdma_lte_data_service"
             settings:controller="com.android.settings.network.telephony.DataServiceSetupPreferenceController"
-            settings:allowDividerAbove="true"
+            settings:allowDividerAbove="false"
             settings:allowDividerBelow="false"/>
 
         <SwitchPreference
@@ -59,7 +59,7 @@
             android:title="@string/mobile_data_settings_title"
             android:summary="@string/mobile_data_settings_summary"
             settings:controller="com.android.settings.network.telephony.MobileDataPreferenceController"
-            settings:allowDividerAbove="true"/>
+            settings:allowDividerAbove="false"/>
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="button_roaming_key"
@@ -215,7 +215,7 @@
             android:key="telephony_apn_key"
             android:persistent="false"
             android:title="@string/mobile_network_apn_title"
-            settings:allowDividerAbove="true"
+            settings:allowDividerAbove="false"
             settings:controller="com.android.settings.network.telephony.ApnPreferenceController"/>
 
         <Preference
@@ -230,14 +230,14 @@
         android:key="erase_sim"
         android:persistent="false"
         android:title="@string/mobile_network_erase_sim"
-        settings:allowDividerBelow="true"
+        settings:allowDividerBelow="false"
         settings:controller="com.android.settings.network.telephony.DeleteSimProfilePreferenceController"/>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="disable_sim_explanation"
         android:title="@string/mobile_network_disable_sim_explanation"
         android:selectable="false"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:searchable="false"
         settings:controller="com.android.settings.network.telephony.DisableSimFooterPreferenceController"/>
 
@@ -245,7 +245,7 @@
         android:key="no_5g_in_dsds_explanation"
         android:title="@string/no_5g_in_dsds_text"
         android:selectable="false"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:searchable="false"
         settings:controller="com.android.settings.network.telephony.NrDisabledInDsdsFooterPreferenceController"/>
 

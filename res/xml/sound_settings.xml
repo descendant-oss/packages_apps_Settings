@@ -27,7 +27,7 @@
         android:key="remote_media_group"
         android:title=""
         android:order="-185"
-        settings:allowDividerBelow="true"
+        settings:allowDividerBelow="false"
         settings:controller="com.android.settings.notification.RemoteVolumeGroupController">
     </PreferenceCategory>
 
@@ -110,7 +110,7 @@
         android:order="-120"
         settings:useAdminDisabledSummary="true"
         settings:keywords="@string/keywords_sounds_and_notifications_interruptions"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:controller="com.android.settings.notification.zen.ZenModePreferenceController"/>
 
     <Preference

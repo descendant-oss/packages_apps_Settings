@@ -26,15 +26,15 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"
         android:order="-10000"
-        settings:allowDividerBelow="true"/>
+        settings:allowDividerBelow="false"/>
 
     <com.android.settingslib.widget.LayoutPreference
         android:key="instant_app_buttons"
         android:layout="@layout/instant_app_buttons"
         android:selectable="false"
         android:order="-9999"
-        settings:allowDividerAbove="true"
-        settings:allowDividerBelow="true"/>
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"/>
 
     <com.android.settingslib.widget.ActionButtonsPreference
         android:key="action_buttons"
@@ -45,7 +45,7 @@
         android:icon="@drawable/ic_notification"
         android:title="@string/notifications_label"
         settings:controller="com.android.settings.applications.appinfo.AppNotificationPreferenceController"
-        settings:allowDividerAbove="true"/>
+        settings:allowDividerAbove="false"/>
 
     <com.android.settings.widget.FixedLineSummaryPreference
         android:key="permission_settings"
@@ -195,7 +195,7 @@
         android:icon="@drawable/ic_menu_add"
         android:title="@string/app_settings_link"
         settings:controller="com.android.settings.applications.appinfo.AppSettingPreferenceController"
-        settings:allowDividerAbove="true" />
+        settings:allowDividerAbove="false" />
 
     <Preference
         android:key="app_version"
@@ -203,7 +203,7 @@
         android:selectable="false"
         android:order="9999"
         settings:controller="com.android.settings.applications.appinfo.AppVersionPreferenceController"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:enableCopying="true"/>
 
 </PreferenceScreen>
