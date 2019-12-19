@@ -8,4 +8,10 @@
     <string name="theme_customization_font_title">Headline / Body font</string>
     <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
     <string name="theme_customization_icon_shape_title">Icon shape</string>
+
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Audio handling</string>
+    <string name="resume_audio_stream_title">Resume audio</string>
+    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
+
 </resources>
