@@ -84,6 +84,11 @@
         settings:searchable="false"/>
 
     <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
+        android:title="@string/google_privacy_services"/>
+
+    <PreferenceCategory
         android:key="dashboard_tile_placeholder"/>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that

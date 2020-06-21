@@ -51,4 +51,8 @@
     <string name="descendant_guardia_frag_title">Descendant Guardia</string>
     <string name="descendant_guardia_frag_summary">Your Privacy Guardian to raise awareness of what\'s happening on your device</string>
 
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Google Privacy Services</string>
+
+
 </resources>
