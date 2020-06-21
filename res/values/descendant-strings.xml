@@ -18,4 +18,13 @@
     <string name="expand_immediately_title">Enable expand button in volume panel</string>
     <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
 
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">Enable Descendant Guardia</string>
+    <string name="descendant_guardia_enable_summary">Enabling Descendant Guardia will help you being aware about when your apps request permissions even in background</string>
+    <string name="descendant_guardia_exclude_gapps">Whitelist Google Apps</string>
+    <string name="descendant_guardia_exclude_gapps_summary">With this feature enabled you won\'t get any notifications if a Google App requests permissions</string>
+    <string name="descendant_guardia_exclude_system_apps">Whitelist System Apps</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">With this feature enabled you won\'t get any notifications if a System App requests permissions</string>
+
 </resources>

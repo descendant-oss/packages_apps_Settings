@@ -75,6 +75,37 @@
         android:summary="@string/summary_placeholder"
         settings:searchable="false"/>
 
+    <!-- Descendant Guardia -->
+    <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
+        android:title="@string/descendant_guardia_pc"
+        android:key="descendant_guardia_pc">
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="descendant_guardia"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_enable"
+            android:title="@string/descendant_guardia_enable"
+            android:summary="@string/descendant_guardia_enable_summary"/>
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="descendant_guardia_exclude_gapps"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_google"
+            android:title="@string/descendant_guardia_exclude_gapps"
+            android:summary="@string/descendant_guardia_exclude_gapps_summary"/>
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="descendant_guardia_exclude_system_apps"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_system"
+            android:title="@string/descendant_guardia_exclude_system_apps"
+            android:summary="@string/descendant_guardia_exclude_system_apps_summary"/>
+
+    </PreferenceCategory>
+
+
     <!-- Privacy Service -->
     <PreferenceCategory
         android:key="privacy_services"
