@@ -85,7 +85,7 @@
         <org.descendant.support.preferences.SystemSettingSwitchPreference
             android:key="descendant_guardia"
             android:defaultValue="false"
-            android:icon="@drawable/ic_enable"
+            android:icon="@drawable/descendant_guardia"
             android:title="@string/descendant_guardia_enable"
             android:summary="@string/descendant_guardia_enable_summary"/>
 
