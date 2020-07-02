@@ -83,4 +83,10 @@
     <string name="dont_touch_notification_title">"Don't touch my heads-up"</string>
     <string name="dont_touch_notification_summary">Avoid launching app after touching the heads-up</string>
 
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_summary">Replace reTicker background color using notification app main color</string>
+
 </resources>
