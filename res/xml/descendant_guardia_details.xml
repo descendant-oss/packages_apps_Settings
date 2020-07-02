@@ -1,0 +1,124 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/descendant_guardia_pc"
+    android:key="descendant_guardia_settings"
+    settings:initialExpandedChildrenCount="9999">
+
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="descendant_guardia"
+        android:defaultValue="false"
+        android:icon="@drawable/descendant_guardia"
+        android:title="@string/descendant_guardia_enable"
+        android:summary="@string/descendant_guardia_enable_summary"/>
+
+    <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
+        android:title="@string/descendant_guardia_notifications_title"
+        android:key="descendant_guardia_notifications">
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="descendant_guardia_type_notif"
+            android:dependency="descendant_guardia"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_notif_type"
+            android:title="@string/descendant_guardia_notif_type_title"
+            android:summary="@string/descendant_guardia_notif_type_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
+        android:title="@string/descendant_guardia_whitelists"
+        android:key="descendant_guardia_whitelists">
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="descendant_guardia_exclude_gapps"
+            android:dependency="descendant_guardia"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_google"
+            android:title="@string/descendant_guardia_exclude_gapps"
+            android:summary="@string/descendant_guardia_exclude_gapps_summary"/>
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="descendant_guardia_exclude_system_apps"
+            android:dependency="descendant_guardia"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_system"
+            android:title="@string/descendant_guardia_exclude_system_apps"
+            android:summary="@string/descendant_guardia_exclude_system_apps_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
+        android:title="@string/descendant_guardia_alert_me_pc_title"
+        android:key="descendant_guardia_alert_me_pc">
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="descendant_guardia_alert_me"
+            android:dependency="descendant_guardia"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_guardia_alert"
+            android:title="@string/descendant_guardia_alert_me_title"
+            android:summary="@string/descendant_guardia_alert_me_summary"/>
+
+        <PreferenceCategory
+            settings:allowDividerBelow="false"
+            settings:allowDividerAbove="false"
+            android:title="@string/descendant_guardia_alert_options"
+            android:key="descendant_guardia_alert_all_opts">
+
+            <org.descendant.support.preferences.SystemSettingSwitchPreference
+                android:key="descendant_guardia_is_gps_alert"
+                android:dependency="descendant_guardia_alert_me"
+                android:defaultValue="false"
+                android:icon="@drawable/ic_gps_alert"
+                android:title="@string/descendant_guardia_is_gps_alert_title"
+                android:summary="@string/descendant_guardia_is_gps_alert_summary"/>
+
+            <org.descendant.support.preferences.SystemSettingSwitchPreference
+                android:key="descendant_guardia_is_camera_alert"
+                android:dependency="descendant_guardia_alert_me"
+                android:defaultValue="false"
+                android:icon="@drawable/ic_camera_alert"
+               android:title="@string/descendant_guardia_is_camera_alert_title"
+                android:summary="@string/descendant_guardia_is_camera_alert_summary"/>
+
+            <org.descendant.support.preferences.SystemSettingSwitchPreference
+                android:key="descendant_guardia_is_record_audio_alert"
+                android:dependency="descendant_guardia_alert_me"
+                android:defaultValue="false"
+                android:icon="@drawable/ic_record_audio_alert"
+                android:title="@string/descendant_guardia_is_record_audio_alert_title"
+                android:summary="@string/descendant_guardia_is_record_audio_alert_summary"/>
+
+            <org.descendant.support.preferences.SystemSettingSwitchPreference
+                android:key="descendant_guardia_is_phone_alert"
+                android:dependency="descendant_guardia_alert_me"
+                android:defaultValue="false"
+                android:icon="@drawable/ic_phone_alert"
+                android:title="@string/descendant_guardia_is_phone_alert_title"
+                android:summary="@string/descendant_guardia_is_phone_alert_summary"/>
+
+            <org.descendant.support.preferences.SystemSettingSwitchPreference
+                android:key="descendant_guardia_is_clipboard_read_alert"
+                android:dependency="descendant_guardia_alert_me"
+                android:defaultValue="false"
+                android:icon="@drawable/ic_clipboard_read_alert"
+                android:title="@string/descendant_guardia_is_clipboard_read_alert_title"
+                android:summary="@string/descendant_guardia_is_clipboard_read_alert_summary"/>
+
+            <org.descendant.support.preferences.SystemSettingSwitchPreference
+                android:key="descendant_guardia_is_clipboard_write_alert"
+                android:dependency="descendant_guardia_alert_me"
+                android:defaultValue="false"
+                android:icon="@drawable/ic_clipboard_write_alert"
+                android:title="@string/descendant_guardia_is_clipboard_write_alert_title"
+                android:summary="@string/descendant_guardia_is_clipboard_write_alert_summary"/>
+        </PreferenceCategory>
+    </PreferenceCategory>
+</PreferenceScreen>

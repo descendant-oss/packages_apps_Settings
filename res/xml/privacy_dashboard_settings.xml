@@ -39,6 +39,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesController" />
 
+    <Preference
+        android:key="descendant_guardia_frag"
+        android:icon="@drawable/descendant_guardia"
+        android:title="@string/descendant_guardia_frag_title"
+        android:summary="@string/descendant_guardia_frag_summary"
+        settings:allowDividerAbove="false"
+        android:fragment="com.android.settings.privacy.DescendantGuardiaSettings"/>
+
     <!-- Accessibility usage -->
     <Preference
         android:key="privacy_accessibility_usage"
@@ -74,44 +82,6 @@
         android:title="@string/lock_screen_notifications_title"
         android:summary="@string/summary_placeholder"
         settings:searchable="false"/>
-
-    <!-- Descendant Guardia -->
-    <PreferenceCategory
-        settings:allowDividerBelow="false"
-        settings:allowDividerAbove="false"
-        android:title="@string/descendant_guardia_pc"
-        android:key="descendant_guardia_pc">
-
-        <org.descendant.support.preferences.SystemSettingSwitchPreference
-            android:key="descendant_guardia"
-            android:defaultValue="false"
-            android:icon="@drawable/descendant_guardia"
-            android:title="@string/descendant_guardia_enable"
-            android:summary="@string/descendant_guardia_enable_summary"/>
-
-        <org.descendant.support.preferences.SystemSettingSwitchPreference
-            android:key="descendant_guardia_exclude_gapps"
-            android:dependency="descendant_guardia"
-            android:defaultValue="false"
-            android:icon="@drawable/ic_google"
-            android:title="@string/descendant_guardia_exclude_gapps"
-            android:summary="@string/descendant_guardia_exclude_gapps_summary"/>
-
-        <org.descendant.support.preferences.SystemSettingSwitchPreference
-            android:key="descendant_guardia_exclude_system_apps"
-            android:dependency="descendant_guardia"
-            android:defaultValue="false"
-            android:icon="@drawable/ic_system"
-            android:title="@string/descendant_guardia_exclude_system_apps"
-            android:summary="@string/descendant_guardia_exclude_system_apps_summary"/>
-
-    </PreferenceCategory>
-
-
-    <!-- Privacy Service -->
-    <PreferenceCategory
-        android:key="privacy_services"
-        android:layout="@layout/preference_category_no_label"/>
 
     <PreferenceCategory
         android:key="dashboard_tile_placeholder"/>

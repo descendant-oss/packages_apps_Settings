@@ -18,6 +18,14 @@ package com.android.settings.privacy;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.os.Bundle;
+
+import android.provider.SearchIndexableResource;
+import android.view.View;
+
+import androidx.annotation.VisibleForTesting;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;

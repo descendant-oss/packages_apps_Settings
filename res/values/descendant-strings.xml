@@ -26,5 +26,29 @@
     <string name="descendant_guardia_exclude_gapps_summary">With this feature enabled you won\'t get any notifications if a Google App requests permissions</string>
     <string name="descendant_guardia_exclude_system_apps">Whitelist System Apps</string>
     <string name="descendant_guardia_exclude_system_apps_summary">With this feature enabled you won\'t get any notifications if a System App requests permissions</string>
+    <string name="descendant_guardia_alert_me_pc_title">Alerts</string>
+    <string name="descendant_guardia_alert_me_title">Alerts</string>
+    <string name="descendant_guardia_alert_me_summary">Enable alerts</string>
+    <string name="descendant_guardia_is_gps_alert_title">GPS alert</string>
+    <string name="descendant_guardia_is_gps_alert_summary">Show alerts when GPS gets used</string>
+    <string name="descendant_guardia_is_camera_alert_title">Camera alerts</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Show alerts when Camera gets used</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Microphone alerts</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Show alerts when Microphone gets used</string>
+    <string name="descendant_guardia_is_phone_alert_title">Phone alerts</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Show alerts when Phone permission gets used</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Clipboard read alerts</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Show alerts when clipboard read permission gets used</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Clipboard write alerts</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Show alerts when clipboard write permission gets used</string>
+    <string name="descendant_guardia_notif_type_title">Use notifications instead of toasts</string>
+    <string name="descendant_guardia_notif_type_summary">Enabling this option, notification will replace toast when there\'s a permission usage to be signaled</string>
+    <string name="descendant_guardia_description">Descendant Guardia is your Privacy Guardian that will help you understand what your applications do in real-time with the permissions you gave them</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Whitelists</string>
+    <string name="descendant_guardia_notifications_title">Notification type</string>
+    <string name="descendant_guardia_alert_options">Alert types</string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">Your Privacy Guardian to raise awareness of what\'s happening on your device</string>
 
 </resources>
