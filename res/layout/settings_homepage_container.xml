@@ -37,6 +37,7 @@
 
             <FrameLayout
                 android:id="@+id/contextual_cards_content"
+                android:elevation="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/contextual_card_side_margin"
@@ -44,6 +45,7 @@
 
             <FrameLayout
                 android:id="@+id/main_content"
+                android:elevation="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/main_content_side_margin"
@@ -57,6 +59,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:elevation="4dp"
         android:touchscreenBlocksFocus="false"
         android:keyboardNavigationCluster="false">
         <include layout="@layout/search_bar"/>
