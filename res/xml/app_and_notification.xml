@@ -71,6 +71,7 @@
         android:defaultValue="false" />
 
     <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:dependency="reticker_status"
         android:key="reticker_colored"
         android:icon="@drawable/ic_styles_app"
         android:title="@string/reticker_colored_title"
