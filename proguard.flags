@@ -13,6 +13,8 @@
     *;
 }
 
+-keep class org.descendant.health.**
+
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }
