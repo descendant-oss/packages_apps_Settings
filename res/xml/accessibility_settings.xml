@@ -22,6 +22,8 @@
     android:title="@string/accessibility_settings">
 
     <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
         android:key="user_installed_services_category"
         android:persistent="false"
         android:title="@string/user_installed_services_category_title"/>
@@ -29,6 +31,8 @@
     <PreferenceCategory
         android:key="screen_reader_category"
         android:persistent="false"
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
         android:title="@string/screen_reader_category_title">
 
         <Preference
@@ -41,6 +45,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
         android:key="display_category"
         android:persistent="false"
         android:title="@string/display_category_title">
@@ -95,6 +101,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
         android:key="interaction_control_category"
         android:persistent="false"
         android:title="@string/interaction_control_category_title">
@@ -110,6 +118,7 @@
         <SwitchPreference
             android:key="toggle_power_button_ends_call_preference"
             android:persistent="false"
+            android:icon="@drawable/ic_toggle_power_button_ends_call_preference"
             android:title="@string/accessibility_power_button_ends_call_prerefence_title"
             settings:controller="com.android.settings.accessibility.PowerButtonEndsCallPreferenceController"/>
 
@@ -148,6 +157,7 @@
         <Preference
             android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
             android:key="gesture_system_navigation_input_summary_accessibility"
+            android:drawable="@drawable/ic_gesture_system_navigation_input_summary_accessibility"
             android:persistent="false"
             android:title="@string/system_navigation_title"
             settings:searchable="false"
@@ -156,6 +166,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
         android:key="audio_and_captions_category"
         android:persistent="false"
         android:title="@string/audio_and_captions_category_title">
@@ -205,10 +217,12 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        settings:allowDividerBelow="false"
+        settings:allowDividerAbove="false"
         android:key="experimental_category"
         android:persistent="false"
         android:title="@string/experimental_category_title"
-        settings:initialExpandedChildrenCount="1">
+        settings:initialExpandedChildrenCount="9999">
 
         <SwitchPreference
             android:key="toggle_high_text_contrast_preference"
