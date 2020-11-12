@@ -109,5 +109,7 @@
     <string name="descendant_clock_flow_selector_earth">Earth</string>
     <string name="descendant_clock_flow_selector_moon">Moon</string>
     <string name="descendant_clock_flow_selector_pinwheel">Pinwheel</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
 
 </resources>
