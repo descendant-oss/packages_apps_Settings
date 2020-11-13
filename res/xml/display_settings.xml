@@ -198,7 +198,7 @@
             android:summary="@string/styles_app_summary">
             <intent
                 android:action="android.intent.action.SET_WALLPAPER"
-                android:targetPackage="com.android.wallpaper"
+                android:targetPackage="com.android.customization"
                 android:targetClass="com.android.customization.picker.CustomizationPickerActivity"/>
         </Preference>
 
