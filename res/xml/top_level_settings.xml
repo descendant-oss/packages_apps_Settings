@@ -41,8 +41,8 @@
     <Preference
         android:key="top_level_descendant_health"
         android:title="Descendant Health"
-        android:summary="Test"
-        android:icon="@drawable/ic_data_saver"
+        android:summary="COVID-19 data, sleep helper, eyes protector"
+        android:icon="@drawable/ic_homepage_descendant_health"
         android:order="-105"
         android:fragment="org.descendant.health.DescendantHealth"/>
 

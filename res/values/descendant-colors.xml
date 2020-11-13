@@ -1,4 +1,5 @@
 <resources>
     <!-- Descendant background -->
     <color name="dashboard_background_color">#f2f2f2</color>
+    <color name ="homepage_health_background">#FFFF2800</color>
 </resources>
