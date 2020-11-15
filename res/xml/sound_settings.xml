@@ -227,7 +227,8 @@
         <org.descendant.support.preferences.SystemSettingSwitchPreference
           android:key="screenshot_sound"
           android:icon="@drawable/ic_mute_shutter"
-          android:title="@string/screenshot_shutter_sound_title" />
+          android:title="@string/screenshot_shutter_sound_title"
+          android:defaultValue="false" />
 
     </PreferenceCategory>
 
