@@ -128,4 +128,8 @@
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
 
+    <!-- Navigation hide -->
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+
 </resources>
