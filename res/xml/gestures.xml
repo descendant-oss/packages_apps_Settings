@@ -106,6 +106,7 @@
     <Preference
         android:key="gesture_volume_skiptrack_summary"
         android:title="@string/volume_skiptrack_screen_title"
+        android:icon="@drawable/ic_gesture_volume_skiptrack"
         android:fragment="com.android.settings.gestures.VolumeSkipTrackSettings"
         settings:controller="com.android.settings.gestures.VolumeSkipTrackPreferenceController" />
 </PreferenceScreen>
