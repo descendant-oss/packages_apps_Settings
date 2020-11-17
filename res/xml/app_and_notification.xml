@@ -134,15 +134,6 @@
         android:order="20"
         settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController"/>
 
-    <!-- Descendant health Manager  -->
-    <org.descendant.support.preferences.SystemSettingSwitchPreference
-        android:key="descendant_health"
-        android:icon="@drawable/ic_descendant_health_manager"
-        android:title="@string/descendant_health_manager_title"
-        android:summary="@string/descendant_health_manager_summary"
-        android:order="21"
-        android:defaultValue="true" />
-
 <!-- PreferenceCategory
         android:key="debug_applications_category"
         android:title="@string/adv_app_sett"
