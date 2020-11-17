@@ -51,11 +51,5 @@
         android:selectable="false"
         settings:searchable="false"
         settings:allowDividerAbove="false"/>
-
-    <org.descendant.support.preferences.SystemSettingSwitchPreference
-        android:key="gesture_pill_hide"
-        android:icon="@drawable/ic_gesture_pill_hide"
-        android:title="@string/navbar_gesture_pill_toggle_title"
-        android:summary="@string/navbar_gesture_pill_toggle_summary"/>
-
 </PreferenceScreen>
+
