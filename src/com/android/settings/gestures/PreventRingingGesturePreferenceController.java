@@ -48,6 +48,9 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
     @VisibleForTesting
     static final String KEY_MUTE = "prevent_ringing_option_mute";
 
+    @VisibleForTesting
+    static final String KEY_DND = "prevent_ringing_option_mute_dnd";
+
     private final String PREF_KEY_VIDEO = "gesture_prevent_ringing_video";
     private final String KEY = "gesture_prevent_ringing_category";
     private final Context mContext;
@@ -60,6 +63,8 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
     RadioButtonPreference mVibratePref;
     @VisibleForTesting
     RadioButtonPreference mMutePref;
+    @VisibleForTesting
+    RadioButtonPreference mDNDpref;
 
     private SettingObserver mSettingObserver;
 
@@ -81,6 +86,7 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
         mPreferenceCategory = screen.findPreference(getPreferenceKey());
         mVibratePref = makeRadioPreference(KEY_VIBRATE, R.string.prevent_ringing_option_vibrate);
         mMutePref = makeRadioPreference(KEY_MUTE, R.string.prevent_ringing_option_mute);
+        mDNDpref = makeRadioPreference(KEY_DND, R.string.prevent_ringing_option_mute_dnd);
 
         if (mPreferenceCategory != null) {
             mSettingObserver = new SettingObserver(mPreferenceCategory);
@@ -122,17 +128,26 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
         final boolean isMute = preventRingingSetting == Settings.Secure.VOLUME_HUSH_MUTE;
         if (mVibratePref != null && mVibratePref.isChecked() != isVibrate) {
             mVibratePref.setChecked(isVibrate);
+            mDNDpref.setChecked(false);
+        }
+        if (preventRingingSetting == Settings.Secure.VOLUME_HUSH_DND) {
+            mDNDpref.setChecked(true);
+            mVibratePref.setChecked(false);
+            mMutePref.setChecked(false);
         }
         if (mMutePref != null && mMutePref.isChecked() != isMute) {
             mMutePref.setChecked(isMute);
+            mDNDpref.setChecked(false);
         }
 
         if (preventRingingSetting == Settings.Secure.VOLUME_HUSH_OFF) {
             mVibratePref.setEnabled(false);
             mMutePref.setEnabled(false);
+            mDNDpref.setEnabled(false);
         } else {
             mVibratePref.setEnabled(true);
             mMutePref.setEnabled(true);
+            mDNDpref.setEnabled(true);
         }
     }
 
@@ -165,6 +180,8 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
                 return Settings.Secure.VOLUME_HUSH_MUTE;
             case KEY_VIBRATE:
                 return Settings.Secure.VOLUME_HUSH_VIBRATE;
+            case KEY_DND:
+                return Settings.Secure.VOLUME_HUSH_DND;
             default:
                 return Settings.Secure.VOLUME_HUSH_OFF;
         }
