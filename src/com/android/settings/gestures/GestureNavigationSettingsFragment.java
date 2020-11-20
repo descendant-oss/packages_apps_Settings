@@ -49,6 +49,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
+    private static final String GESTURE_BAR_LENGTH_KEY = "gesture_navbar_length";
     private static final String LONG_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.long";
     private static final String MEDIUM_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.medium";
     private static final String HIDDEN_OVERLAY_PKG = "com.custom.overlay.systemui.gestural.hidden";
