@@ -174,23 +174,6 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/device_theme"
-        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
-
-        <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:icon="@drawable/ic_accents"
-            android:title="@string/theme_customization_accent_color_title"/>
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:icon="@drawable/ic_fonts"
-            android:title="@string/theme_customization_font_title"/>
-        <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:icon="@drawable/ic_sys_icon_theme"
-            android:title="@string/theme_customization_icon_shape_title"/>
         <Preference
             android:key="android.theme.launch.styles"
             android:icon="@drawable/ic_styles_app"
