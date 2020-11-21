@@ -144,9 +144,23 @@
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
          any of the above settings (including dynamic) are specific to the work profile. -->
     <PreferenceCategory
+        android:key="lock_screen_gestures"
+        android:title="@string/lock_screen_gestures_title"
+        android:order="1001">
+
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:icon="@drawable/ic_double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_sleep_lockscreen_title"
+            android:summary="@string/double_tap_sleep_lockscreen_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header"
-        android:order="1001"
+        android:order="1002"
         settings:searchable="false">
 
         <com.android.settings.RestrictedListPreference
