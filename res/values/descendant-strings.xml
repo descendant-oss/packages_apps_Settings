@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Descendant redirect styles app -->
     <string name="styles_app_title">Styles app</string>
     <string name="styles_app_summary">Customize the settings above in a comfy app</string>
@@ -132,5 +132,13 @@
     <string name="navbar_length">Gesture bar length</string>
     <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
+
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+    <string name="lock_screen_gestures_title">Gestures</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
 
 </resources>
