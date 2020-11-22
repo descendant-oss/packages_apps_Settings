@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The halogenOS Project
+ * Copyright (C) 2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
@@ -22,24 +23,31 @@ import android.text.TextUtils;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class PotatoVersionPreferenceController extends BasePreferenceController {
+public class DescendantBuildTypePreferenceController  extends BasePreferenceController {
 
-    private static final String PROPERTY_POTATO_VERSION = "ro.potato.vernum";
+    private static final String TAG = "DescendantBuildTypePreferenceController";
+    private static final String DESCENDANT_BUILD_TYPE = "ro.descendant.branding.version";
 
-    public PotatoVersionPreferenceController(Context context, String key) {
+    public DescendantBuildTypePreferenceController(Context context, String key) {
         super(context, key);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        if (!TextUtils.isEmpty(SystemProperties.get(PROPERTY_POTATO_VERSION))) return AVAILABLE;
-        return CONDITIONALLY_UNAVAILABLE;
+        return AVAILABLE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(PROPERTY_POTATO_VERSION,
-                mContext.getString(R.string.unknown));
+        String buildType = SystemProperties.get(DESCENDANT_BUILD_TYPE);
+        switch (buildType) {
+            case "OFFICIAL":
+                return mContext.getString(R.string.descendant_official, buildType);
+            case "MASHED":
+                return mContext.getString(R.string.descendant_mashed, buildType);
+            default:
+                return mContext.getString(R.string.descendant_unofficial);
+        }
     }
 }
 

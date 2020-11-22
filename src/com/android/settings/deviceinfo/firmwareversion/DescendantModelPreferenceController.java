@@ -22,12 +22,12 @@ import androidx.annotation.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class PotatoModelPreferenceController extends BasePreferenceController {
+public class DescendantModelPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    private static final String POTATO_DEVICE_MODEL = "ro.product.system.model";
+    private static final String DESCENDANT_DEVICE_MODEL = "ro.product.system.model";
 
-    public PotatoModelPreferenceController(Context context, String preferenceKey) {
+    public DescendantModelPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
 
@@ -38,7 +38,7 @@ public class PotatoModelPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(POTATO_DEVICE_MODEL,
+        return SystemProperties.get(DESCENDANT_DEVICE_MODEL,
                 mContext.getString(R.string.device_info_default));
     }
 }

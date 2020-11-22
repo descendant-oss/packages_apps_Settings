@@ -22,23 +22,23 @@
     settings:keywords="@string/keywords_android_version">
 
    <PreferenceScreen
-       android:layout="@layout/potato_branding_layout"
-       android:key="potato_branding" />
+       android:layout="@layout/descendant_branding_layout"
+       android:key="descendant_branding" />
 
     <!-- Device Model-->
     <Preference
-        android:key="potato_device_model"
-        android:title="@string/potato_device_model"
+        android:key="descendant_device_model"
+        android:title="@string/descendant_device_model"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.PotatoModelPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DescendantModelPreferenceController"/>
 
     <!-- POSP Version -->
     <Preference
         android:key="modversion"
-        android:title="@string/potato_version_title"
+        android:title="@string/descendant_version_title"
         android:summary="@string/device_info_default"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.PotatoVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DescendantVersionPreferenceController"/>
 
     <!-- Android version -->
     <Preference
@@ -54,7 +54,7 @@
         android:key="build_type"
         android:title="@string/build_type"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.PotatoBuildTypePreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DescendantBuildTypePreferenceController"/>
 
     <!-- Security patch -->
     <Preference
