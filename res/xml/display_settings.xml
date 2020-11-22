@@ -185,6 +185,4 @@
                 android:targetClass="com.android.customization.picker.CustomizationPickerActivity"/>
         </Preference>
 
-    </PreferenceCategory>
-
 </PreferenceScreen>
