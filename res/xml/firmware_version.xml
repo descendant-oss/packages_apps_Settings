@@ -21,10 +21,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-   <PreferenceScreen
-       android:layout="@layout/descendant_branding_layout"
-       android:key="descendant_branding" />
-
     <!-- Device Model-->
     <Preference
         android:key="descendant_device_model"
@@ -32,7 +28,7 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.DescendantModelPreferenceController"/>
 
-    <!-- POSP Version -->
+    <!-- Descendant Version -->
     <Preference
         android:key="modversion"
         android:title="@string/descendant_version_title"
@@ -48,13 +44,6 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
-
-    <!-- POSP build type -->
-    <Preference
-        android:key="build_type"
-        android:title="@string/build_type"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.DescendantBuildTypePreferenceController"/>
 
     <!-- Security patch -->
     <Preference
