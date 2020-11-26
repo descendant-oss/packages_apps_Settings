@@ -161,6 +161,7 @@
 
     <SwitchPreference
         android:key="tap_to_wake"
+        android:drawable="@drawable/ic_double_tap_sleep_lockscreen"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
