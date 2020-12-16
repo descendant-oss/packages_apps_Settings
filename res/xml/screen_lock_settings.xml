@@ -42,7 +42,7 @@
         android:icon="@drawable/ic_power_instant_lock"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
         android:key="fod_gesture"
         android:title="@string/fod_gesture_title"
         android:summary="@string/fod_gesture_summary"
