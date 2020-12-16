@@ -88,6 +88,10 @@
         android:title="@string/ambient_display_category_triggers"
         android:order="1000">
 
+        <Preference
+            android:key="ambient_display_custom"
+            android:title="@string/advanced_settings" />
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="ambient_display_always_on"
             android:icon="@drawable/ic_ambient_display_always_on"
