@@ -25,4 +25,145 @@
     <string name="fod_gesture_title">Unlock with fingerprint when the screen is off</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">Styles app</string>
+    <string name="styles_app_summary">Customize the settings above in a comfy app</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Accent color</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Audio handling</string>
+    <string name="resume_audio_stream_title">Resume audio</string>
+    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
+    <string name="pause_audio_stream_title">Pause media</string>
+    <string name="pause_audio_stream_summary">Automatically pause media playing if media volume has been muted</string>
+
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Volume interface extras</string>
+    <string name="expand_immediately_title">Enable expand button in volume panel</string>
+    <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
+
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">Enable Descendant Guardia</string>
+    <string name="descendant_guardia_enable_summary">Enabling Descendant Guardia will help you being aware about when your apps request permissions even in background</string>
+    <string name="descendant_guardia_exclude_gapps">Whitelist Google Apps</string>
+    <string name="descendant_guardia_exclude_gapps_summary">With this feature enabled you won\'t get any notifications if a Google App requests permissions</string>
+    <string name="descendant_guardia_exclude_system_apps">Whitelist System Apps</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">With this feature enabled you won\'t get any notifications if a System App requests permissions</string>
+    <string name="descendant_guardia_alert_me_pc_title">Alerts</string>
+    <string name="descendant_guardia_alert_me_title">Alerts</string>
+    <string name="descendant_guardia_alert_me_summary">Enable alerts</string>
+    <string name="descendant_guardia_is_gps_alert_title">GPS alert</string>
+    <string name="descendant_guardia_is_gps_alert_summary">Show alerts when GPS gets used</string>
+    <string name="descendant_guardia_is_camera_alert_title">Camera alerts</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Show alerts when Camera gets used</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Microphone alerts</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Show alerts when Microphone gets used</string>
+    <string name="descendant_guardia_is_phone_alert_title">Phone alerts</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Show alerts when Phone permission gets used</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Clipboard read alerts</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Show alerts when clipboard read permission gets used</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Clipboard write alerts</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Show alerts when clipboard write permission gets used</string>
+    <string name="descendant_guardia_notif_type_title">Use notifications instead of toasts</string>
+    <string name="descendant_guardia_notif_type_summary">Enabling this option, notification will replace toast when there\'s a permission usage to be signaled</string>
+    <string name="descendant_guardia_description">Descendant Guardia is your Privacy Guardian that will help you understand what your applications do in real-time with the permissions you gave them</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Whitelists</string>
+    <string name="descendant_guardia_notifications_title">Notification type</string>
+    <string name="descendant_guardia_alert_options">Alert types</string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">Your Privacy Guardian to raise awareness of what\'s happening on your device</string>
+
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Google Privacy Services</string>
+
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">Do you need support?</string>
+    <string name="descendant_support_summary">Tap here to join the official Telegram support group</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Descendant version</string>
+    <string name="descendant_version_default">Unknown</string>
+
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Thumb UI</string>
+    <string name="thumb_ui_summary">This toggle will enable Thumb UI. \nAn interface that will suit your usage with one hand.</string>
+
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Descendant Storage Manager</string>
+    <string name="descendant_storage_manager_summary">This manager will self-handle the junk your apps may generate.\nIt can coexhist with Android\'s default manager.</string>
+
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Descendant Health Manager</string>
+    <string name="descendant_health_manager_summary">This manager helps out users to figure out when and how to avoid their smartphone to interfere with their health</string>
+
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Descendant Idle Manager</string>
+    <string name="descendant_idle_manager_summary">Descendant\'s algorithm to ensure efficiency (recommended on)</string>
+
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Don't touch my heads-up"</string>
+    <string name="dont_touch_notification_summary">Avoid launching app after touching the heads-up</string>
+
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Replace your notifications with a redesigned version of tickers! \nSlim and less invasive than a standard notification</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Descendant Clock Flow</string>
+    <string name="descendant_clock_flow_title">Enable Clock Flow</string>
+    <string name="descendant_clock_flow_summary">Enabling Descendant Clock Flow will provide a new way to discretely see which app you\'ve received a notification from, on lockscreen and ambient notifications</string>
+    <string name="descendant_clock_flow_selection">Select Descendant Clock Flow style</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Descendant Clock Flow Themes</string>
+    <string name="descendant_clock_flow_selector_default">Default</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">Swan</string>
+    <string name="descendant_clock_flow_selector_chameleon">Chameleon</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">Venetian Mask</string>
+    <string name="descendant_clock_flow_selector_birdie">Birdie</string>
+    <string name="descendant_clock_flow_selector_cityline">City Line</string>
+    <string name="descendant_clock_flow_selector_earth">Earth</string>
+    <string name="descendant_clock_flow_selector_moon">Moon</string>
+    <string name="descendant_clock_flow_selector_pinwheel">Pinwheel</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
+    <string name="volume_skiptrack_title">Volume rocker skip tracks</string>
+    <string name="volume_skiptrack_summary">Long press the volume rocker to skip tracks when playing music, even remotely on tv or PC with e.g. Spotify (app must run on the phone and show the notification).</string>
+
+    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="hidden_label">Hidden</string>
+    <string name="long_label">Long</string>
+
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+    <string name="lock_screen_gestures_title">Gestures</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
 </resources>
