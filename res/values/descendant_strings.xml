@@ -18,8 +18,6 @@
     <!-- Build types, now with translations -->
     <string name="build_type">Build Type</string>
     <string name="descendant_official">Official</string>
-    <string name="descendant_unofficial">Unofficial</string>
-    <string name="descendant_mashed">Mashed</string>
 
     <!-- Device Model -->
     <string name="descendant_device_model">Device Model</string>
