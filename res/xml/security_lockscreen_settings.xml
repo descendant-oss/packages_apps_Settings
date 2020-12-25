@@ -89,8 +89,9 @@
         android:order="1000">
 
         <Preference
+            android:icon="@drawable/ic_ambient_display"
             android:key="ambient_display_custom"
-            android:title="@string/advanced_settings" />
+            android:title="@string/ambient_display_custom" />
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="ambient_display_always_on"

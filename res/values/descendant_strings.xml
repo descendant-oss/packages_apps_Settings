@@ -12,6 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="ambient_display_custom">Ambient Display and Sensors</string>
     <!-- POSP version in About phone -->
     <string name="descendant_version_title">Descendant version</string>
 
