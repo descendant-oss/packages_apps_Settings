@@ -28,8 +28,6 @@ import static org.mockito.Mockito.when;
 import android.content.Context;
 
 import com.android.internal.widget.LockPatternUtils;
-import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController;
-import com.android.settings.display.AmbientDisplayNotificationsPreferenceController;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
 import com.android.settings.gestures.PickupGesturePreferenceController;
 import com.android.settings.testutils.FakeFeatureFactory;
@@ -81,11 +79,6 @@ public class LockscreenDashboardFragmentTest {
 
     @Test
     public void onAttach_alwaysOn_shouldInvokeSetters() {
-        final AmbientDisplayAlwaysOnPreferenceController controller = spy(
-                new AmbientDisplayAlwaysOnPreferenceController(mContext, "key"));
-        doReturn(controller).when(mTestFragment).use(
-                AmbientDisplayAlwaysOnPreferenceController.class);
-
         mTestFragment.onAttach(mContext);
         verify(controller).setConfig(any());
         verify(controller).setCallback(any());
@@ -93,11 +86,6 @@ public class LockscreenDashboardFragmentTest {
 
     @Test
     public void onAttach_notifications_shouldInvokeSetters() {
-        final AmbientDisplayNotificationsPreferenceController controller = spy(
-                new AmbientDisplayNotificationsPreferenceController(mContext, "key"));
-        doReturn(controller).when(mTestFragment).use(
-                AmbientDisplayNotificationsPreferenceController.class);
-
         mTestFragment.onAttach(mContext);
         verify(controller).setConfig(any());
     }

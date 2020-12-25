@@ -24,11 +24,7 @@ import androidx.annotation.VisibleForTesting;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
-import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController;
 import com.android.settings.display.AmbientDisplayCustomPreferenceController;
-import com.android.settings.display.AmbientDisplayNotificationsPreferenceController;
-import com.android.settings.display.DescendantClockFlowPreferenceController;
-import com.android.settings.display.PulseOnNewTracksPreferenceController;
 import com.android.settings.display.PulseOnNewTracksSoliPreferenceController;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
 import com.android.settings.gestures.PickupGesturePreferenceController;
@@ -92,13 +88,8 @@ public class LockscreenDashboardFragment extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(AmbientDisplayAlwaysOnPreferenceController.class)
-                .setConfig(getConfig(context))
-                .setCallback(this::updatePreferenceStates);
-        use(AmbientDisplayNotificationsPreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
-        use(PulseOnNewTracksPreferenceController.class).setConfig(getConfig(context));
         use(PulseOnNewTracksSoliPreferenceController.class).setConfig(getConfig(context));
         addPreferenceController(new AmbientDisplayCustomPreferenceController(context));
     }
@@ -116,7 +107,6 @@ public class LockscreenDashboardFragment extends DashboardFragment
         controllers.add(notificationController);
         mOwnerInfoPreferenceController = new OwnerInfoPreferenceController(context, this);
         controllers.add(mOwnerInfoPreferenceController);
-        controllers.add(new DescendantClockFlowPreferenceController(context));
         return controllers;
     }
 

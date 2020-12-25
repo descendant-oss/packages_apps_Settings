@@ -56,50 +56,19 @@
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
 
-        <PreferenceCategory
-            settings:allowDividerBelow="false"
-            settings:allowDividerAbove="false"
-            android:key="descendant_clock_flow_category"
-            android:title="@string/descendant_clock_flow_category_title">
-
-            <org.descendant.support.preferences.SystemSettingSwitchPreference
-                android:key="descendant_clock_flow"
-                android:icon="@drawable/ic_descendant_clock_flow"
-                android:title="@string/descendant_clock_flow_title"
-                android:summary="@string/descendant_clock_flow_summary"
-                android:defaultValue="false" />
-
-            <ListPreference
-                android:key="descendant_clock_flow_selector"
-                android:dependency="descendant_clock_flow"
-                android:icon="@drawable/ic_descendant_clock_flow_selection"
-                android:title="@string/descendant_clock_flow_selector_title"
-                android:entries="@array/descendant_clock_flow_selector_entries"
-                android:entryValues="@array/descendant_clock_flow_selector_values"
-                android:persistent="false" />
-
-        </PreferenceCategory>
-
-
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
-        android:title="@string/ambient_display_category_triggers"
+        android:title="@string/ambient_display_screen_title"
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
         android:order="1000">
 
         <Preference
             android:icon="@drawable/ic_ambient_display"
             android:key="ambient_display_custom"
             android:title="@string/ambient_display_custom" />
-
-        <com.android.settingslib.RestrictedSwitchPreference
-            android:key="ambient_display_always_on"
-            android:icon="@drawable/ic_ambient_display_always_on"
-            android:title="@string/doze_always_on_title"
-            android:summary="@string/doze_always_on_summary"
-            settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
-            settings:userRestriction="no_ambient_display" />
 
         <Preference
             android:key="ambient_display_tap"
@@ -126,20 +95,6 @@
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
         <SwitchPreference
-            android:key="ambient_display_notification"
-            android:icon="@drawable/ic_ambient_display_notification"
-            android:title="@string/doze_title"
-            android:summary="@string/doze_summary"
-            settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
-
-        <SwitchPreference
-            android:key="pulse_on_new_tracks"
-            android:icon="@drawable/ic_pulse_on_new_tracks"
-            android:title="@string/pulse_on_new_tracks_title"
-            android:summary="@string/pulse_on_new_tracks_summary"
-            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
-
-        <SwitchPreference
             android:key="pulse_on_new_tracks_soli"
             android:title="@string/pulse_on_new_tracks_title"
             android:summary="@string/pulse_on_new_tracks_soli_summary"
@@ -151,6 +106,8 @@
     <PreferenceCategory
         android:key="lock_screen_gestures"
         android:title="@string/lock_screen_gestures_title"
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
         android:order="1001">
 
         <org.descendant.support.preferences.SystemSettingSwitchPreference
@@ -163,6 +120,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header"
         android:order="1002"
