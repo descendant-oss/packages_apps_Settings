@@ -20,6 +20,7 @@ import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
 
 public class TapToWakePreferenceController extends AbstractPreferenceController implements
@@ -44,6 +45,7 @@ public class TapToWakePreferenceController extends AbstractPreferenceController 
 
     @Override
     public void updateState(Preference preference) {
+        preference.setIcon(R.drawable.ic_double_tap_sleep_lockscreen);
         int value = Settings.Secure.getInt(
                 mContext.getContentResolver(), Settings.Secure.DOUBLE_TAP_TO_WAKE, 0);
         ((SwitchPreference) preference).setChecked(value != 0);
