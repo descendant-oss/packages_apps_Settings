@@ -236,7 +236,7 @@ public class EntityHeaderController {
         pref.setOrder(-1000);
         pref.setSelectable(false);
         pref.setKey(PREF_KEY_APP_HEADER);
-        pref.setAllowDividerBelow(true);
+        pref.setAllowDividerBelow(false);
         return pref;
     }
 
