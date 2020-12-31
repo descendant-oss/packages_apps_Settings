@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title" comment="descendant_version_title&#10;">Versi Descendant</string>
+    <!-- Build types, now with translations -->
+    <string name="build_type">Tipe pembuatan</string>
+    <string name="descendant_official">Resmi</string>
+    <!-- Device Model -->
+    <string name="descendant_device_model">Model Perangkat</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Buka kunci dengan sidik jari saat layar padam</string>
+    <string name="fod_gesture_summary">Izinkan membuka kunci tanpa harus mengaktifkan layar terlebih dahulu</string>
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">Gaya aplikasi</string>
+    <string name="styles_app_summary">Sesuaikan pengaturan di atas dengan aplikasi yang nyaman</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Warna aksen</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Font Judul / Isi</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">Bentuk ikon</string>
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Penanganan audio</string>
+    <string name="resume_audio_stream_title">Lanjutkan audio</string>
+    <string name="resume_audio_stream_summary">Lanjutkan audio secara otomatis jika dijeda karena interaksi pengguna atas volume (membawa bilah volume ke nol)</string>
+    <string name="pause_audio_stream_title">Jeda media</string>
+    <string name="pause_audio_stream_summary">Otomatis jeda saat memutar media jika volume media dibisukan</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Tambahan antarmuka volume</string>
+    <string name="expand_immediately_title">Aktifkan tombol perluas di panel volume</string>
+    <string name="expand_immediately_summary">Tampilkan tombol tambahan di panel volume yang akan memungkinkan memperluasnya ke multi-baris secara langsung, tanpa harus berinteraksi dengan bilah setengah tersembunyi</string>
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">Aktifkan Descendant Guardia</string>
+    <string name="descendant_guardia_enable_summary">Mengaktifkan Descendant Guardia akan membantu Anda mengetahui kapan aplikasi Anda meminta izin bahkan di latar belakang</string>
+    <string name="descendant_guardia_exclude_gapps">Izinkan Aplikasi Google</string>
+    <string name="descendant_guardia_exclude_gapps_summary">Dengan mengaktifkan fitur ini, Anda tidak akan mendapatkan pemberitahuan apa pun jika Aplikasi Google meminta izin</string>
+    <string name="descendant_guardia_exclude_system_apps">Izinkan Aplikasi Sistem</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">Dengan mengaktifkan fitur ini, Anda tidak akan mendapatkan pemberitahuan apa pun jika Aplikasi Sistem meminta izin</string>
+    <string name="descendant_guardia_alert_me_pc_title">Peringatan</string>
+    <string name="descendant_guardia_alert_me_title">Peringatan</string>
+    <string name="descendant_guardia_alert_me_summary">Aktifkan peringatan</string>
+    <string name="descendant_guardia_is_gps_alert_title">Peringatan GPS</string>
+    <string name="descendant_guardia_is_gps_alert_summary">Tampilkan peringatan saat GPS digunakan</string>
+    <string name="descendant_guardia_is_camera_alert_title">Peringatan Kamera</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Tampilkan peringatan saat Kamera digunakan</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Peringatan Mikrofon</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Tampilkan peringatan saat Mikrofon digunakan</string>
+    <string name="descendant_guardia_is_phone_alert_title">Peringatan Telepon</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Tampilkan peringatan ketika izin Telepon digunakan</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Peringatan baca clipboard</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Tampilkan peringatan ketika izin baca clipboard digunakan</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Peringatan baca clipboard</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Tampilkan peringatan ketika izin baca clipboard digunakan</string>
+    <string name="descendant_guardia_notif_type_title">Gunakan notifikasi, bukan toast</string>
+    <string name="descendant_guardia_notif_type_summary">Mengaktifkan opsi ini, pemberitahuan akan menggantikan toast ketika ada penggunaan izin untuk diberi isyarat</string>
+    <string name="descendant_guardia_description">Descendant Guardia adalah Penjaga Privasi Anda yang akan membantu Anda memahami apa yang dilakukan aplikasi Anda secara real-time dengan izin yang Anda berikan kepada mereka</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Daftar yang dibolehkan</string>
+    <string name="descendant_guardia_notifications_title">Jenis notifikasi</string>
+    <string name="descendant_guardia_alert_options">Jenis peringatan</string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">Penjaga Privasi Anda untuk meningkatkan kesadaran tentang apa yang terjadi di perangkat Anda</string>
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Layanan Privasi Google</string>
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">Apakah Anda perlu dukungan?</string>
+    <string name="descendant_support_summary">Ketuk di sini untuk bergabung di grup dukungan resmi Telegram</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Versi Descendant</string>
+    <string name="descendant_version_default">Tak diketahui</string>
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Thumb UI</string>
+    <string name="thumb_ui_summary">Toggle ini akan mengaktifkan Thumb UI. \nSebuah antarmuka yang sesuai untuk penggunaan satu tangan.</string>
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Pengelola Penyimpanan Descendant</string>
+    <string name="descendant_storage_manager_summary">Pengelola ini akan menangani sampah aplikasi. \nPengelola ini dapat bekerja bersama Pengelola Android bawaan.</string>
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Pengelola Kesehatan Descendant</string>
+    <string name="descendant_health_manager_summary">Pengelola ini membantu para pengguna untuk mengetahui kapan dan bagaimana cara menghindari perangkat mereka dari gangguan kesehatan perangkat</string>
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Pengelola Idle Descendant</string>
+    <string name="descendant_idle_manager_summary">Algoritma Descendant untuk memastikan efisiensi perangkat (disarankan menyala)</string>
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Jangan sentuh heads-up"</string>
+    <string name="dont_touch_notification_summary">Hindari peluncuran aplikasi setelah menyentuh heads-up</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Gantilah notifikasi Anda dengan versi ticker yang didesain ulang! \nSlim dan tidak terlalu invasif dibandingkan pemberitahuan standar</string>
+    <string name="reticker_colored_title">Gunakan latar belakang berwarna aplikasi</string>
+    <string name="reticker_colored_summary">Ganti warna latar belakang reTicker menggunakan warna utama aplikasi notifikasi</string>
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Descendant Clock Flow</string>
+    <string name="descendant_clock_flow_title">Aktifkan Clock Flow</string>
+    <string name="descendant_clock_flow_summary">Mengaktifkan Descendant Clock Flow akan memberikan cara baru untuk secara diam-diam melihat aplikasi yang telah menerima pemberitahuan, di layar kunci dan notifikasi ambien</string>
+    <string name="descendant_clock_flow_selection">Pilih gaya Descendant Clock Flow</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Tema Descendant Clock Flow</string>
+    <string name="descendant_clock_flow_selector_default">Bawaan</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">Angsa</string>
+    <string name="descendant_clock_flow_selector_chameleon">Bunglon</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">Topeng Venesia</string>
+    <string name="descendant_clock_flow_selector_birdie">Burung</string>
+    <string name="descendant_clock_flow_selector_cityline">Garis Kota</string>
+    <string name="descendant_clock_flow_selector_earth">Bumi</string>
+    <string name="descendant_clock_flow_selector_moon">Bulan</string>
+    <string name="descendant_clock_flow_selector_pinwheel">Kincir</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Nyalakan senter</string>
+    <string name="double_tap_power_flashlight_title">Layar mati tombol power untuk senter</string>
+    <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Tekan dua kali tombol power untuk menyalakan senter</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama tombol power untuk menyalakan senter</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Lewati trek lagu</string>
+    <string name="volume_skiptrack_title">Tombol volume untuk lewati trek</string>
+    <string name="volume_skiptrack_summary">Tekan lama tombol volume untuk melewati trek saat memutar musik, bahkan dari jarak jauh di TV atau PC dengan mis. Spotify (aplikasi harus dijalankan di telepon dan menunjukkan pemberitahuan).</string>
+    <string name="pulse_on_new_tracks_title">Ticker musik ambient</string>
+    <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambient saat trek musik baru diputar. Ketuk dua kali pada info trek untuk melompat ke trek berikutnya.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Perlihatkan Tampilan Ambient ketika trek musik baru dimainkan</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Panjang bilah gerakan</string>
+    <string name="hidden_label">Tersembunyi</string>
+    <string name="long_label">Panjang</string>
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Ketuk dua kali untuk tidur</string>
+    <string name="double_tap_sleep_lockscreen_summary">Ketuk dua kali di mana saja pada saat layar terkunci untuk membuat perangkat tidur</string>
+    <string name="lock_screen_gestures_title">Gestur</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="nama_paket">%1$s</xliff:g>"</string>
+</resources>

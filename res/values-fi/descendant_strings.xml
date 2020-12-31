@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title" comment="descendant_version_title&#10;">Descendant versio</string>
+    <!-- Build types, now with translations -->
+    <string name="build_type">Versio Tyyppi</string>
+    <string name="descendant_official">Virallinen</string>
+    <!-- Device Model -->
+    <string name="descendant_device_model">Laitteen Malli</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Avaa sormenjäljellä kun näyttö on pois päältä.</string>
+    <string name="fod_gesture_summary">Sallii laitteen lukituksen avaamisen ilman näytön herätystä.</string>
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">Teemat</string>
+    <string name="styles_app_summary">Mukauta yllä olevia asetuksia kätevässä sovelluksessa</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Korostusväri</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Otsikko / runko fontti</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">Kuvakkeen muoto</string>
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Äänen hallinta</string>
+    <string name="resume_audio_stream_title">Jatka äänentoistoa</string>
+    <string name="resume_audio_stream_summary">Jatka äänentoistoa automaattisesti, jos se keskeytettiin käyttäjän vaikutettua äänentasoon (laitettiin äänenvoimakkuuspalkista nollaan)</string>
+    <string name="pause_audio_stream_title">Keskeytä media</string>
+    <string name="pause_audio_stream_summary">Keskeytä median toisto automaattisesti, jos median äänenvoimakkuus on mykistetty</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Äänenvoimakkuuden käyttöliittymän lisäosat</string>
+    <string name="expand_immediately_title">Ota käyttöön laajennuspainike äänenvoimakkuuspaneelissa</string>
+    <string name="expand_immediately_summary">Näytä ylimääräinen painike äänenvoimakkuuspaneelissa, jonka avulla voit laajentaa sen moniriviseksi, käyttämättä puoliksi piiloitettua palkkia</string>
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">Ota käyttöön Descendant Guardia</string>
+    <string name="descendant_guardia_enable_summary">Descendant Guardian käyttöönotto auttaa sinua olemaan tietoinen siitä, milloin sovelluksesi pyytää käyttöoikeuksia myös taustalla</string>
+    <string name="descendant_guardia_exclude_gapps">Salli Google-sovellukset</string>
+    <string name="descendant_guardia_exclude_gapps_summary">Tämän ominaisuuden ollessa käytössä et saa ilmoituksia, jos Google-sovellus pyytää käyttöoikeuksia</string>
+    <string name="descendant_guardia_exclude_system_apps">Salli Järjestelmäsovellukset</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">Tämän ominaisuuden ollessa käytössä et saa ilmoituksia, jos Järjestelmäsovellus pyytää käyttöoikeuksia</string>
+    <string name="descendant_guardia_alert_me_pc_title">Hälytykset</string>
+    <string name="descendant_guardia_alert_me_title">Hälytykset</string>
+    <string name="descendant_guardia_alert_me_summary">Ota hälytykset käyttöön</string>
+    <string name="descendant_guardia_is_gps_alert_title">GPS hälytys</string>
+    <string name="descendant_guardia_is_gps_alert_summary">Näytä hälytys kun GPS:ä käytetään</string>
+    <string name="descendant_guardia_is_camera_alert_title">Kameran hälytykset</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Näytä hälytys kun kameraa käytetään</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Mikrofonin hälytykset</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Näytä hälytys kun mikrofonia käytetään</string>
+    <string name="descendant_guardia_is_phone_alert_title">Puhelimen hälytykset</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Näytä hälytys kun puhelimen käyttöoikeuksia käytetään</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Leikepöydän lukuhälytykset</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Näytä hälytys kun leikepöydän lukuoikeuksia käytetään</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Leikepöydän kirjoitushälytykset</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Näytä hälytys kun leikepöydän kirjoitusoikeuksia käytetään</string>
+    <string name="descendant_guardia_notif_type_title">Käytä ilmoituksia toastien sijaan</string>
+    <string name="descendant_guardia_notif_type_summary">Tämän asetuksen käyttöönotto korvaa toastin ilmoituksella, kun käyttöoikeuksien käytöstä varoitetaan</string>
+    <string name="descendant_guardia_description">Descendant Guardia on yksityisyytesi vartija, joka auttaa sinua ymmärtämään mitä sovelluksesi tekevät antamillasi käyttöoikeuksilla reaaliajassa.</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Sallittujen lista</string>
+    <string name="descendant_guardia_notifications_title">Ilmoitustyyppi</string>
+    <string name="descendant_guardia_alert_options">Hälytystyypit</string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">Yksityisyytesi vartija, lisäämään tietoisuutta siitä, mitä laitteellasi tapahtuu</string>
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Googlen tietosuojapalvelut</string>
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">Tarvitsetko tukea?</string>
+    <string name="descendant_support_summary">Napauta tästä liittyäksesi viralliseen Telegramin tukiryhmään</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Descendant versio</string>
+    <string name="descendant_version_default">Tuntematon</string>
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Thumb UI</string>
+    <string name="thumb_ui_summary">Tämä asetus ottaa käyttöön Thumb UI:n. Käyttöliittymän, joka sopii yhdellä kädellä käytettäväksi.</string>
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Descendant Storage Manager</string>
+    <string name="descendant_storage_manager_summary">Tämä hallintasovellus hoitaa itsenäisesti sen tallennustilaa kuluttavan roskan, jota sovellukset saattavat tuottaa. Se toimii Androidin oman hallintasovelluksen kanssa rinnalla.</string>
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Descendant Health Manager</string>
+    <string name="descendant_health_manager_summary">Tämä hallintasovellus auttaa käyttäjää selvittämään, milloin ja miten välttää älypuhelimen käyttöä, jotta se ei häiritsisi hänen terveyttänsä</string>
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Descendant Idle Manager</string>
+    <string name="descendant_idle_manager_summary">Descendantin algoritmi tehokkuuden varmistamiseksi (suositellaan pitämään päällä)</string>
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Älä koske minun heads-up:iin"</string>
+    <string name="dont_touch_notification_summary">Vältä sovelluksen käynnistämistä kun kosketit heads-up:ia</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Korvaa ilmoituksesi uudelleen suunnitellulla versiolla tickeristä! Vie vähemmän tilaa eikä ole niin häiritsevä kuin tavallinen ilmoitus</string>
+    <string name="reticker_colored_title">Käytä sovelluksen väristä taustaa</string>
+    <string name="reticker_colored_summary">Korvaa reTickerin taustaväri käyttäen ilmoitussovelluksen pääväriä</string>
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Descendant Clock Flow</string>
+    <string name="descendant_clock_flow_title">Ota Clock Flow käyttöön</string>
+    <string name="descendant_clock_flow_summary">Descendant Clock Flown käyttöönotto tarjoaa uuden tavan nähdä huomaamattomasti miltä sovellukselta tuli ilmoitus, lukitusnäytöllä ja ambient-ilmoituksissa</string>
+    <string name="descendant_clock_flow_selection">Valitse Descendant Clock Flown tyyli</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Descendant Clock Flown Teemat</string>
+    <string name="descendant_clock_flow_selector_default">Oletus</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">Joutsen</string>
+    <string name="descendant_clock_flow_selector_chameleon">Kameleontti</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">Venetsialainen Maski</string>
+    <string name="descendant_clock_flow_selector_birdie">Pikkulintu</string>
+    <string name="descendant_clock_flow_selector_cityline">Kaupunkilinja</string>
+    <string name="descendant_clock_flow_selector_earth">Maapallo</string>
+    <string name="descendant_clock_flow_selector_moon">Kuu</string>
+    <string name="descendant_clock_flow_selector_pinwheel">Väkkärä</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Kuvakaappauksen ääni</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Sytytä taskulamppu</string>
+    <string name="double_tap_power_flashlight_title">Sytytä taskulamppu virtapainikkeella, kun näyttö ei ole päällä</string>
+    <string name="torch_power_button_gesture_none">Ei käytössä</string>
+    <string name="torch_power_button_gesture_dt">Virtapainikkeen kaksoisnapautus sytyttää taskulampun</string>
+    <string name="torch_power_button_gesture_lp">Paina virtapainiketta pitkään sytyttääksesi taskulampun</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Ohita musiikkikappaleita</string>
+    <string name="volume_skiptrack_title">Ohita kappaleita äänenvoimakkuusnäppäimillä</string>
+    <string name="volume_skiptrack_summary">Paina äänevoimakkuusnappia pitkään ohittaaksesi kappaleita kun kuuntelet musiikkia, jopa etänä televisiosta tai PC:ltä vaikkapa Spotifyta kuunneltaessa (sovelluksen on oltava älypuhelimesta päällä ja näytettävä ilmoitus).</string>
+    <string name="pulse_on_new_tracks_title">Ambient ticker musiikille</string>
+    <string name="pulse_on_new_tracks_summary">Näytä Ambient-näytöllä kun uutta kappaletta aletaan soittamaan. Kaksoisnapauta kappaleen tietoja vaihtaaksesi seuraavaan kappaleeseen.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Näytä Ambient-näytöllä kun uutta kappaletta aletaan soittamaan</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Elepalkin pituus</string>
+    <string name="hidden_label">Piilotettu</string>
+    <string name="long_label">Pitkä</string>
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Lepotila kaksoisnapautuksella</string>
+    <string name="double_tap_sleep_lockscreen_summary">Kaksoisnapauta mihin tahansa lukitusnäytöllä laittaaksesi puhelimen lepotilaan</string>
+    <string name="lock_screen_gestures_title">Eleet</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+</resources>

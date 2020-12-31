@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title" comment="descendant_version_title&#10;">Descendant sürümü</string>
+    <!-- Build types, now with translations -->
+    <string name="build_type">Yapı Türü</string>
+    <string name="descendant_official">Resmi</string>
+    <!-- Device Model -->
+    <string name="descendant_device_model">Cihaz Modeli</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Ekran kapalıyken parmak izi ile kilit aç</string>
+    <string name="fod_gesture_summary">Ekranı uyandırmadan cihazın kilidinin açılmasına yarar</string>
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">Stil uygulaması</string>
+    <string name="styles_app_summary">Yukarıdaki uygulama ile ayarları rahatça özelleştirin</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Vurgu rengi</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Başlık / Gövde yazı tipi</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">Simge şekli</string>
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Ses yönetimi</string>
+    <string name="resume_audio_stream_title">Medyayı sürdür</string>
+    <string name="resume_audio_stream_summary">Kullanıcı daha önce sesi (tamamen) kıstığı için çalan medya durduysa, otomatik olarak devam ettir</string>
+    <string name="pause_audio_stream_title">Medyayı durdur</string>
+    <string name="pause_audio_stream_summary">Medya ses seviyesi susturulduğunda çalan medyayı durdur</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Ses arayüzü ekstraları</string>
+    <string name="expand_immediately_title">Ses paneline genişletme tuşu koy</string>
+    <string name="expand_immediately_summary">Yarı gizli çubuk ile uğraşmak yerine, ses panelindeki çoklu çubukları direkt gösterecek bir tuş koy</string>
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">Descendant Guardia\'yı etkinleştir</string>
+    <string name="descendant_guardia_enable_summary">Descendant Guardia\'yı etkinleştirmek, hem önde, hem arkada çalışan uygulamalarınızın istediği izinlerden haberdar olmanıza yardımcı olur</string>
+    <string name="descendant_guardia_exclude_gapps">Google uygulamalarını beyaz listeye al</string>
+    <string name="descendant_guardia_exclude_gapps_summary">Bu özellikle, herhangi bir Google uygulaması izin isterse bildirim almayacaksınız</string>
+    <string name="descendant_guardia_exclude_system_apps">Sistem uygulamalarını beyaz listeye al</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">Bu özellikle, herhangi bir sistem uygulaması izin isterse bildirim almayacaksınız</string>
+    <string name="descendant_guardia_alert_me_pc_title">Uyarılar</string>
+    <string name="descendant_guardia_alert_me_title">Uyarılar</string>
+    <string name="descendant_guardia_alert_me_summary">Uyarıları etkinleştir</string>
+    <string name="descendant_guardia_is_gps_alert_title">GPS uyarısı</string>
+    <string name="descendant_guardia_is_gps_alert_summary">GPS kullanıldığında uyarı göster</string>
+    <string name="descendant_guardia_is_camera_alert_title">Kamera uyarıları</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Kamera kullanıldığında uyarı göster</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Mikrofon uyarıları</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Mikrofon kullanıldığında uyarı göster</string>
+    <string name="descendant_guardia_is_phone_alert_title">Telefon uyarıları</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Telefon izni kullanıldığında uyarı göster</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Pano okuma uyarıları</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Pano okuma izni kullanıldığında uyarı göster</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Pano yazma uyarıları</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Pano yazma izni kullanıldığında uyarı göster</string>
+    <string name="descendant_guardia_notif_type_title">Uyarıları bildirim olarak göster</string>
+    <string name="descendant_guardia_notif_type_summary">Bu ayarı açmak, bir izin istendiğinde uyarıları bildirim olarak gönderir</string>
+    <string name="descendant_guardia_description">Descendant Guardia, uygulamalarınızın ne izinleri kullandığını gerçek zamanlı olarak bildiren, gizlilik koruyucunuzdur</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Beyaz liste</string>
+    <string name="descendant_guardia_notifications_title">Bildirim türü</string>
+    <string name="descendant_guardia_alert_options">Uyarı türü</string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">Telefonunuzda ne olup bittiğini gösteren gizlilik koruyucunuz</string>
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Google Gizlilik Hizmetleri</string>
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">Destek mi gerekiyor?</string>
+    <string name="descendant_support_summary">Telegram destek grubunda katılmak için buraya dokunun</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Descendant sürümü</string>
+    <string name="descendant_version_default">Bilinmiyor</string>
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Baş parmak arayüzü</string>
+    <string name="thumb_ui_summary">Tek elle kullanımınıza uyum sağlayan arayüz.\nBu ayar baş parmak arayüzünü etkinleştirecektir.</string>
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Descendant Depolama Yöneticisi</string>
+    <string name="descendant_storage_manager_summary">Bu yönetici, uygulamalarınızın oluşturduğu çöpü kendi kendine temizler.\nAndroid\'in varsayılan yöneticisiyle aynı anda çalışabilir.</string>
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Descendant Sağlık Yöneticisi</string>
+    <string name="descendant_health_manager_summary">Bu yönetici, kullanıcıların akıllı telefonunu kullanmalarının ne zaman sağlığına etki edeceğini hatırlatır ve bunu azaltması için kullanıcıyı yönlendirir.</string>
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Descendant Arkaplan Yöneticisi</string>
+    <string name="descendant_idle_manager_summary">Descendant\'ın verimliliği arttıran algoritması (açık olması önerilir)</string>
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Bildirimime dokunma"</string>
+    <string name="dont_touch_notification_summary">Açılan bildirimlere dokununca uygulama açılmasını engelle</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve ve daha az dikkat dağıtıcıdır</string>
+    <string name="reticker_colored_title">Uygulama rengine göre arkaplan</string>
+    <string name="reticker_colored_summary">reTicker arkaplan rengini uygulamanın ana rengine göre değiştir</string>
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Descendant Saat Akışı</string>
+    <string name="descendant_clock_flow_title">Saat Akışını etkinleştir</string>
+    <string name="descendant_clock_flow_summary">Descendant Saat Akışı\'nı etkinleştirmek, kilit ekranı ve ortam bildirimlerinde uygulamaları teker teker görmenizi sağlar</string>
+    <string name="descendant_clock_flow_selection">Descendant Saat Akışı stilini seç</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Descendant Saat Akışı temaları</string>
+    <string name="descendant_clock_flow_selector_default">Varsayılan</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">Kuğu</string>
+    <string name="descendant_clock_flow_selector_chameleon">Bukalemun</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">Venedikli Maskesi</string>
+    <string name="descendant_clock_flow_selector_birdie">Kuş</string>
+    <string name="descendant_clock_flow_selector_cityline">Şehir Yolu</string>
+    <string name="descendant_clock_flow_selector_earth">Dünya</string>
+    <string name="descendant_clock_flow_selector_moon">Ay</string>
+    <string name="descendant_clock_flow_selector_pinwheel">Rüzgar Gülü</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü alma sesi</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Feneri aç</string>
+    <string name="double_tap_power_flashlight_title">Ekran kapalı iken güç tuşu ile feneri açma</string>
+    <string name="torch_power_button_gesture_none">Devre dışı</string>
+    <string name="torch_power_button_gesture_dt">El fenerini açmak için güç tuşuna iki defa basın</string>
+    <string name="torch_power_button_gesture_lp">El fenerini açmak için güç tuşuna basılı tutun</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Şarkı atla</string>
+    <string name="volume_skiptrack_title">Ses tuşları şarkı atlar</string>
+    <string name="volume_skiptrack_summary">Müzik çalarken şarkıyı değiştirmek için ses tuşlarına basılı tutun [uygulama bildirim gösteriyorsa uzakta çalan medya dahil (örn. Spotify)].</string>
+    <string name="pulse_on_new_tracks_title">Ortam müzik bilgisi</string>
+    <string name="pulse_on_new_tracks_summary">Yeni bir şarkı başladığında ortam ekranını göster. Bir sonraki şarkıya geçmek için şarkı bilgilerine çift dokunun.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Yeni bir şarkı başladığında ortam ekranında göster</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Hareket çubuğu uzunluğu</string>
+    <string name="hidden_label">Gizli</string>
+    <string name="long_label">Uzun</string>
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Çift tıklayarak ekranı kapat</string>
+    <string name="double_tap_sleep_lockscreen_summary">Kilit ekranında herhangi bir yere çift dokunarak telefonun ekranını kapatın</string>
+    <string name="lock_screen_gestures_title">Hareketler</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+</resources>

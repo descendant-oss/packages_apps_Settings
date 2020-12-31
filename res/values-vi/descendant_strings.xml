@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title" comment="descendant_version_title&#10;">Phiên bản Descendant</string>
+    <!-- Build types, now with translations -->
+    <string name="build_type">Loại bản dựng</string>
+    <string name="descendant_official">Chính thức</string>
+    <!-- Device Model -->
+    <string name="descendant_device_model">Mẫu thiết bị</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Mở khóa bằng vân tay khi màn hình tắt</string>
+    <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình trước</string>
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">Kiểu ứng dụng</string>
+    <string name="styles_app_summary">Tùy chỉnh các cài đặt ở trên trong một ứng dụng thoải mái</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Màu nhấn</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Phông chữ tiêu đề / nội dung</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">Hình dạng biểu tượng</string>
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Xử lý âm thanh</string>
+    <string name="resume_audio_stream_title">Tiếp tục video</string>
+    <string name="resume_audio_stream_summary">Tự động tiếp tục âm thanh nếu nó bị tạm dừng do người dùng tương tác qua âm lượng (đưa thanh âm lượng về không)</string>
+    <string name="pause_audio_stream_title">Tạm dừng phương tiện</string>
+    <string name="pause_audio_stream_summary">Tự động tạm dừng phát phương tiện nếu âm lượng phương tiện đã bị tắt</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Các tính năng bổ sung của giao diện âm lượng</string>
+    <string name="expand_immediately_title">Bật nút mở rộng trong bảng âm lượng</string>
+    <string name="expand_immediately_summary">Hiển thị một nút bổ sung trong bảng điều khiển âm lượng cho phép bạn mở rộng trực tiếp thành nhiều phím mà không cần phải tương tác với thanh nửa ẩn</string>
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant giám sát</string>
+    <string name="descendant_guardia_enable">Bật Descendant giám sát</string>
+    <string name="descendant_guardia_enable_summary">Bật Descendant giám sát sẽ giúp bạn biết khi nào ứng dụng của bạn yêu cầu quyền ngay cả trong nền</string>
+    <string name="descendant_guardia_exclude_gapps">Đưa Google Apps vào danh sách trắng</string>
+    <string name="descendant_guardia_exclude_gapps_summary">Với tính năng này được bật, bạn sẽ không nhận được bất kỳ thông báo nào nếu Ứng dụng Google yêu cầu quyền</string>
+    <string name="descendant_guardia_exclude_system_apps">Đưa ứng dụng hệ thống vào danh sách trắng</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">Với tính năng này được bật, bạn sẽ không nhận được bất kỳ thông báo nào nếu Ứng dụng hệ thống yêu cầu quyền</string>
+    <string name="descendant_guardia_alert_me_pc_title">Cảnh báo</string>
+    <string name="descendant_guardia_alert_me_title">Cảnh báo</string>
+    <string name="descendant_guardia_alert_me_summary">Bật cảnh báo</string>
+    <string name="descendant_guardia_is_gps_alert_title">Cảnh báo GPS</string>
+    <string name="descendant_guardia_is_gps_alert_summary">Hiển thị cảnh báo khi GPS được sử dụng</string>
+    <string name="descendant_guardia_is_camera_alert_title">Cảnh báo máy ảnh</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Hiển thị cảnh báo khi Máy ảnh được sử dụng</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Cảnh báo Micrô</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Hiển thị cảnh báo khi Micrô được sử dụng</string>
+    <string name="descendant_guardia_is_phone_alert_title">Cảnh báo Điện thoại</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Hiển thị cảnh báo khi quyền Điện thoại được sử dụng</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Cảnh báo truy cập bộ nhớ tạm</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Hiển thị cảnh báo khi quyền đọc khay nhớ tạm được sử dụng</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Cảnh báo ghi bảng tạm</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Hiển thị cảnh báo khi quyền ghi khay nhớ tạm được sử dụng</string>
+    <string name="descendant_guardia_notif_type_title">Thông báo thay vì cảnh báo</string>
+    <string name="descendant_guardia_notif_type_summary">Bật tùy chọn này, thông báo sẽ thay thế cảnh báo khi có báo hiệu sử dụng quyền</string>
+    <string name="descendant_guardia_description">Descendant giám sát là Người bảo vệ quyền riêng tư của bạn sẽ giúp bạn hiểu các ứng dụng của bạn làm gì trong thời gian thực với các quyền bạn đã cấp cho chúng</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Danh sách loại trừ</string>
+    <string name="descendant_guardia_notifications_title">Kiểu thông báo</string>
+    <string name="descendant_guardia_alert_options">Kiểu cảnh báo</string>
+    <string name="descendant_guardia_frag_title">Descendant giám sát</string>
+    <string name="descendant_guardia_frag_summary">Người bảo vệ quyền riêng tư của bạn để nâng cao nhận thức về những gì đang xảy ra trên thiết bị của bạn</string>
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Dịch vụ bảo mật của Google</string>
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">Bạn có cần hỗ trợ?</string>
+    <string name="descendant_support_summary">Nhấn vào đây để tham gia nhóm hỗ trợ Telegram chính thức</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Phiên bản Descendant</string>
+    <string name="descendant_version_default">Không xác định</string>
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Giao diện người dùng ngón tay cái</string>
+    <string name="thumb_ui_summary">Chuyển đổi này sẽ bật Giao diện người dùng ngón tay cái. \nMột giao diện phù hợp với cách sử dụng của bạn bằng một tay.</string>
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Trình quản lý Descendant lưu trữ</string>
+    <string name="descendant_storage_manager_summary">Trình quản lý này sẽ tự xử lý rác mà ứng dụng của bạn có thể tạo ra.\nNó có thể cùng tồn tại với trình quản lý mặc định của Android.</string>
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Trình quản lý Descendant sức khoẻ</string>
+    <string name="descendant_health_manager_summary">Người quản lý này giúp người dùng tìm ra thời điểm và cách tránh điện thoại thông minh gây ảnh hưởng đến sức khỏe của họ</string>
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Trình quản lý Descendant không hoạt động</string>
+    <string name="descendant_idle_manager_summary">Thuật toán của Descendant để đảm bảo hiệu quả (được khuyến nghị trên)</string>
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Đừng chạm vào thông báo"</string>
+    <string name="dont_touch_notification_summary">Tránh khởi chạy ứng dụng sau khi chạm vào thông báo</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Thay thế các thông báo của bạn bằng một phiên bản biểu ngữ được thiết kế lại \nNhẹ nhàng và ít xâm lấn hơn thông báo tiêu chuẩn</string>
+    <string name="reticker_colored_title">Sử dụng nền màu ứng dụng</string>
+    <string name="reticker_colored_summary">Thay thế màu nền reTicker bằng màu chính của ứng dụng thông báo</string>
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Đồng hồ Descendant lưu lượng</string>
+    <string name="descendant_clock_flow_title">Bật dòng đồng hồ</string>
+    <string name="descendant_clock_flow_summary">Bật Luồng đồng hồ con cháu sẽ cung cấp một cách mới để xem rõ ràng ứng dụng bạn đã nhận được thông báo, trên màn hình khóa và thông báo xung quanh</string>
+    <string name="descendant_clock_flow_selection">Chọn kiểu Dòng đồng hồ dòng</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Chủ đề Đồng hồ Descendant lưu lượng</string>
+    <string name="descendant_clock_flow_selector_default">Mặc định</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">Thiên nga</string>
+    <string name="descendant_clock_flow_selector_chameleon">con cắc kè</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">Mặt nạ Venice</string>
+    <string name="descendant_clock_flow_selector_birdie">Birdie</string>
+    <string name="descendant_clock_flow_selector_cityline">City Line</string>
+    <string name="descendant_clock_flow_selector_earth">Trái đất</string>
+    <string name="descendant_clock_flow_selector_moon">Mặt trăng</string>
+    <string name="descendant_clock_flow_selector_pinwheel">Chong chóng</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp ảnh màn hình</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Bật đèn pin</string>
+    <string name="double_tap_power_flashlight_title">Phím nguồn bật đèn pin khi màn hình tắt</string>
+    <string name="torch_power_button_gesture_none">Tắt</string>
+    <string name="torch_power_button_gesture_dt">Nhấn đúp phím nguồn để bật đèn pin</string>
+    <string name="torch_power_button_gesture_lp">Nhấn giữ nút nguồn để bật đèn pin</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Bỏ qua các bản nhạc</string>
+    <string name="volume_skiptrack_title">Âm lượng rocker bỏ qua bài hát</string>
+    <string name="volume_skiptrack_summary">Nhấn và giữ nút chỉnh âm lượng để bỏ qua các bản nhạc khi phát nhạc, thậm chí từ xa trên tv hoặc PC với ví dụ: Spotify (ứng dụng phải chạy trên điện thoại và hiển thị thông báo).</string>
+    <string name="pulse_on_new_tracks_title">Thẻ âm nhạc trên Màn hình luôn bật</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị AOD khi một bản nhạc mới được phát. Nhấn đúp vào thông tin bản nhạc để chuyển sang bản nhạc tiếp theo.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Hiển thị màn hình luôn bật khi một bản nhạc mới được phát</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Độ dài thanh cử chỉ</string>
+    <string name="hidden_label">Ẩn</string>
+    <string name="long_label">Lâu</string>
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Chạm hai lần để tắt màn hình</string>
+    <string name="double_tap_sleep_lockscreen_summary">Chạm hai lần ở màn hình khoá để ngủ</string>
+    <string name="lock_screen_gestures_title">Cử Chỉ/ Điều Hướng</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+</resources>

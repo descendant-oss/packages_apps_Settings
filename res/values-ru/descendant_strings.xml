@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title" comment="descendant_version_title&#10;">Версия Descendant</string>
+    <!-- Build types, now with translations -->
+    <string name="build_type">Тип сборки</string>
+    <string name="descendant_official">Официальная</string>
+    <!-- Device Model -->
+    <string name="descendant_device_model">Модель устройства</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Разблокировка с помощью отпечатка пальца при выключенном экране</string>
+    <string name="fod_gesture_summary">Позволяет разблокировать устройство без включения экрана</string>
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">Стили</string>
+    <string name="styles_app_summary">Изменить настройки выше в удобном приложении</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Цвет акцента</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">Форма значков</string>
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Панель управления звуком</string>
+    <string name="resume_audio_stream_title">Возобновить звук</string>
+    <string name="resume_audio_stream_summary">Автоматически возобновлять звук, если он был приостановлен из-за взаимодействия пользователя с объемом (это приведёт к нулю строку)</string>
+    <string name="pause_audio_stream_title">Пауза трека</string>
+    <string name="pause_audio_stream_summary">Автоматически приостанавливать воспроизведение мультимедиа при выключении звука медиапотока</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Дополнительные интерфейсы громкости</string>
+    <string name="expand_immediately_title">Включить кнопку раскрытия в панели громкости</string>
+    <string name="expand_immediately_summary">Показать дополнительную кнопку в панели громкости, которая позволит вам расширить ее без необходимости взаимодействовать с полускрытой полосой</string>
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Потомственный страж</string>
+    <string name="descendant_guardia_enable">Включить потомственного стража</string>
+    <string name="descendant_guardia_enable_summary">Включение Descendant Guardia поможет вам знать, когда ваши приложения запрашивают разрешения даже в фоновом режиме</string>
+    <string name="descendant_guardia_exclude_gapps">Белый список Google приложений</string>
+    <string name="descendant_guardia_exclude_gapps_summary">С помощью этой функции вы не будете получать уведомления, если Google приложение запрашивает разрешение</string>
+    <string name="descendant_guardia_exclude_system_apps">Белый список системных приложений</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">С помощью этой функции вы не будете получать никаких уведомлений, если системное приложение запрашивает разрешения</string>
+    <string name="descendant_guardia_alert_me_pc_title">Оповещения</string>
+    <string name="descendant_guardia_alert_me_title">Оповещения</string>
+    <string name="descendant_guardia_alert_me_summary">Включить оповещения</string>
+    <string name="descendant_guardia_is_gps_alert_title">GPS оповещения</string>
+    <string name="descendant_guardia_is_gps_alert_summary">Показывать уведомления при использовании GPS</string>
+    <string name="descendant_guardia_is_camera_alert_title">Оповещения о камере</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Показывать уведомления при использовании камеры</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Оповещение о работе микрофона</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Показывать предупреждения при использовании микрофона</string>
+    <string name="descendant_guardia_is_phone_alert_title">Оповещения о работе телефона</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Показывать оповещения при использовании разрешения телефона</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Показывать оповещения о чтении с  буфера обмена</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Показывать предупреждения, когда используется разрешение на чтение из буфера обмена</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Оповещения о записи в буфер обмена</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Показывать предупреждения при использовании разрешения на запись в буфер обмена</string>
+    <string name="descendant_guardia_notif_type_title">Использовать уведомления вместо тостов</string>
+    <string name="descendant_guardia_notif_type_summary">При включении этой опции уведомление будет заменять всплывающее уведомление, когда будет сообщено об использовании разрешения.</string>
+    <string name="descendant_guardia_description">Потомственный страж - это ваш Страж конфиденциальности, который поможет вам понять что делают ваши приложения в режиме реального времени с разрешениями, которые вы дали им</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Белые списки</string>
+    <string name="descendant_guardia_notifications_title">Тип уведомлений</string>
+    <string name="descendant_guardia_alert_options">Типы сигналов</string>
+    <string name="descendant_guardia_frag_title">Потомственный страж</string>
+    <string name="descendant_guardia_frag_summary">Ваш Страж Конфиденциальности, чтобы повысить осведомленность о том, что происходит на вашем устройстве</string>
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Службы Google Play</string>
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">Вам нужна помощь?</string>
+    <string name="descendant_support_summary">Нажмите здесь, чтобы присоединиться к официальной группе поддержки Telegram</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Версия Descendant</string>
+    <string name="descendant_version_default">Неизвестно</string>
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Пользовательский интерфейс для большого пальца</string>
+    <string name="thumb_ui_summary">Этот переключатель включает пользовательский интерфейс для большого пальца.\nИнтерфейс, который подойдет для использования одной рукой.</string>
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Менеджер хранилища Descendant</string>
+    <string name="descendant_storage_manager_summary">Этот менеджер будет самостоятельно обрабатывать мусор, ваши приложения могут генерироваться.\nОн может совмещать с менеджером по умолчанию Android.</string>
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Менеджер здоровья Descendant </string>
+    <string name="descendant_health_manager_summary">Этот менеджер помогает пользователям определить, когда и как избежать их смартфона препятствовать их здоровью</string>
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Менеджер эффективности Descendant</string>
+    <string name="descendant_idle_manager_summary">Алгоритм потомка для обеспечения эффективности (рекомендуется)</string>
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Не трогать всплывающие уведомления"</string>
+    <string name="dont_touch_notification_summary">Не запускать приложение после касания всплывающего уведомления</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Замените ваши уведомления переработанной версией тикеров! \nSlim и менее эффективный, чем стандартное уведомление</string>
+    <string name="reticker_colored_title">Использовать цветной фон приложения</string>
+    <string name="reticker_colored_summary">Заменить цвет фона reTicker с помощью цвета основного приложения уведомления</string>
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Часы поток Descendant</string>
+    <string name="descendant_clock_flow_title">Включить поток часов</string>
+    <string name="descendant_clock_flow_summary">Включение Потоковых часов обеспечит новый способ просмотра уведомлений от приложений на экране блокировки и на Всегда включенном экране</string>
+    <string name="descendant_clock_flow_selection">Выберите потоковые часы Descendant</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Темы потоковых часов Descendant </string>
+    <string name="descendant_clock_flow_selector_default">По умолчанию</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">Лебедь</string>
+    <string name="descendant_clock_flow_selector_chameleon">Хамелеон</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">Венецианская маска</string>
+    <string name="descendant_clock_flow_selector_birdie">Птичка</string>
+    <string name="descendant_clock_flow_selector_cityline">Линия города</string>
+    <string name="descendant_clock_flow_selector_earth">Земля</string>
+    <string name="descendant_clock_flow_selector_moon">Луна</string>
+    <string name="descendant_clock_flow_selector_pinwheel">Вертушка</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук создания снимка экрана</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Активация фонарика</string>
+    <string name="double_tap_power_flashlight_title">Активация фонарика долгим нажатием кнопки питания на выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключен</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания для включения фонарика</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Пропускать музыкальные треки</string>
+    <string name="volume_skiptrack_title">Переключение музыкальных треков кнопками громкости</string>
+    <string name="volume_skiptrack_summary">Нажмите и удерживайте качельку громкости, чтобы пропустить треки при воспроизведении музыки, даже удаленно на телевизоре или ПК, например Spotify (приложение должно запускаться на телефоне и показывать уведомление).</string>
+    <string name="pulse_on_new_tracks_title">Уведомления от музыки на Всегда включенном экране</string>
+    <string name="pulse_on_new_tracks_summary">Показывать Всегда включенный экран при воспроизведении новой музыкальной дорожки. Дважды нажмите на информацию о дорожке, чтобы перейти к следующей дорожке.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Показывать Всегда включенный экран при воспроизведении новой музыкальной дорожки</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Длина полоски жестов</string>
+    <string name="hidden_label">Скрыть</string>
+    <string name="long_label">Длинный</string>
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Двойной нажатие для сна</string>
+    <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь любого места на экране блокировки, чтобы перевести устройство в спящий режим</string>
+    <string name="lock_screen_gestures_title">Жесты</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+</resources>

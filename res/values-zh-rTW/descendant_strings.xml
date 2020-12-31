@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title" comment="descendant_version_title&#10;">Descendant 版本</string>
+    <!-- Build types, now with translations -->
+    <string name="build_type">編譯類型</string>
+    <string name="descendant_official">正式版</string>
+    <!-- Device Model -->
+    <string name="descendant_device_model">裝置型號</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">螢幕關閉時使用指紋解鎖</string>
+    <string name="fod_gesture_summary">無需先喚醒螢幕才能解鎖裝置</string>
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">主題</string>
+    <string name="styles_app_summary">在這個舒適的應用程式中量身打造自己的風格</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">重點色調</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">標題/內文字體</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">圖示形狀</string>
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">音訊控制</string>
+    <string name="resume_audio_stream_title">繼續播放音訊</string>
+    <string name="resume_audio_stream_summary">自動繼續播放因使用者操作(將音量調為0)而暫停的音訊</string>
+    <string name="pause_audio_stream_title">暫停媒體</string>
+    <string name="pause_audio_stream_summary">調為靜音後自動暫停媒體</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">音量調整面板的額外功能</string>
+    <string name="expand_immediately_title">在音量面板中啟用擴展按鈕</string>
+    <string name="expand_immediately_summary">在音量面板中顯示一個額外的按鈕，按下後會擴展出其他音量設定，而不需使用半隱藏的橫條</string>
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">啟用Descendant Guardia</string>
+    <string name="descendant_guardia_enable_summary">啟用Descendant Guardia可以在應用程式要求權限時使您能立刻察覺，即使在背景運行也能偵測到。</string>
+    <string name="descendant_guardia_exclude_gapps">將所有Google應用程式放入白名單</string>
+    <string name="descendant_guardia_exclude_gapps_summary">啟用這個選項後，當Google應用程式要求權限時，您將不會收到任何通知。</string>
+    <string name="descendant_guardia_exclude_system_apps">將所有系統應用程式放入白名單</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">啟用這個選項後，當系統應用程式要求權限時，您將不會收到任何通知。</string>
+    <string name="descendant_guardia_alert_me_pc_title">警示</string>
+    <string name="descendant_guardia_alert_me_title">警示</string>
+    <string name="descendant_guardia_alert_me_summary">開啟通知</string>
+    <string name="descendant_guardia_is_gps_alert_title">定位警示</string>
+    <string name="descendant_guardia_is_gps_alert_summary">當有應用程式存取定位功能時顯示通知</string>
+    <string name="descendant_guardia_is_camera_alert_title">相機警示</string>
+    <string name="descendant_guardia_is_camera_alert_summary">當有應用程式存取相機時顯示通知</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">麥克風警示</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">當有應用程式存取麥克風時顯示通知</string>
+    <string name="descendant_guardia_is_phone_alert_title">電話警示</string>
+    <string name="descendant_guardia_is_phone_alert_summary">當有應用程式存取電話時顯示通知</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">檢視剪貼簿警示</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">當有應用程式檢視剪貼板時顯示通知</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">編輯剪貼簿警示</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">當有應用程式編輯剪貼板時顯示通知</string>
+    <string name="descendant_guardia_notif_type_title">使用通知而非彈出式訊息</string>
+    <string name="descendant_guardia_notif_type_summary">啟用這個選項後，存取權限的彈出式訊息將會被一般通知取代</string>
+    <string name="descendant_guardia_description">Descendant Guardia是您專屬的隱私守護者，它會協助您了解在給予權限後，那些應用程式都做了什麼</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">白名單</string>
+    <string name="descendant_guardia_notifications_title">通知類型</string>
+    <string name="descendant_guardia_alert_options">提醒方式</string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">使您更能察覺手機上所發生任何事的守護者</string>
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Google 隱私服務</string>
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">需要協助嗎？</string>
+    <string name="descendant_support_summary">按此加入官方Telegram支援群組</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Descendant 版本</string>
+    <string name="descendant_version_default">未知</string>
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Thumb UI</string>
+    <string name="thumb_ui_summary">這個選項將會啟用Thumb UI，一個使您更便於單手操作的介面。</string>
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Descendant 空間管理</string>
+    <string name="descendant_storage_manager_summary">這個功能可以自我處理應用程式可能產生的垃圾文件。\n可以和Android內建的儲存空間管理員共存。</string>
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Descendant 健康管理</string>
+    <string name="descendant_health_manager_summary">這個功能會協助使用者不讓他們的手機影響自身健康。</string>
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Descendant 閒置管理</string>
+    <string name="descendant_idle_manager_summary">使用Descendant的演算法保持裝置的效能。(建議開啟)</string>
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"通知防誤觸"</string>
+    <string name="dont_touch_notification_summary">防止按下彈出通知後開啟應用程式的動作</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">以重新設計後的提示方式取代原有通知。\n相較起來更苗條，更不具侵入性。</string>
+    <string name="reticker_colored_title">背景採用應用程式色調</string>
+    <string name="reticker_colored_summary">以該應用程式主色調取代原有背景色</string>
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Descendant Clock Flow</string>
+    <string name="descendant_clock_flow_title">啟用Clock Flow</string>
+    <string name="descendant_clock_flow_summary">啟用Descendant Clock Flow後，將會在鎖定螢幕和微光螢幕中，以一種全新的方式顯示通知</string>
+    <string name="descendant_clock_flow_selection">選擇樣式</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">主題</string>
+    <string name="descendant_clock_flow_selector_default">預設 </string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">天鵝</string>
+    <string name="descendant_clock_flow_selector_chameleon">變色龍</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">威尼斯面具</string>
+    <string name="descendant_clock_flow_selector_birdie">鳥兒</string>
+    <string name="descendant_clock_flow_selector_cityline">城市線</string>
+    <string name="descendant_clock_flow_selector_earth">地球</string>
+    <string name="descendant_clock_flow_selector_moon">明月</string>
+    <string name="descendant_clock_flow_selector_pinwheel">風車</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">螢幕擷取音效</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">啟動手電筒</string>
+    <string name="double_tap_power_flashlight_title">螢幕關閉時按電源鍵開啟手電筒</string>
+    <string name="torch_power_button_gesture_none">已停用</string>
+    <string name="torch_power_button_gesture_dt">按兩下電源鍵以控制手電筒</string>
+    <string name="torch_power_button_gesture_lp">長按電源鍵以控制手電筒</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">略過曲目</string>
+    <string name="volume_skiptrack_title">音量鍵略過曲目</string>
+    <string name="volume_skiptrack_summary">長按音量鍵可在播放音樂時略過曲目，甚至可以在電視或PC上遠端播放音樂,例如：Spotify(播放軟體必須在手機上執行且顯示通知)</string>
+    <string name="pulse_on_new_tracks_title">環境音樂通知</string>
+    <string name="pulse_on_new_tracks_summary">當播放新音樂時顯示環境音樂通知。在通知上雙擊可跳到下一曲。</string>
+    <string name="pulse_on_new_tracks_soli_summary">播放新的音樂曲目時顯示環境顯示畫面</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">手勢列長度</string>
+    <string name="hidden_label">隱藏</string>
+    <string name="long_label">長</string>
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">輕觸兩下休眠</string>
+    <string name="double_tap_sleep_lockscreen_summary">輕觸兩下鎖定螢幕上的任意位置以休眠</string>
+    <string name="lock_screen_gestures_title">手勢</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+</resources>

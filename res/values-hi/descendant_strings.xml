@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title" comment="descendant_version_title&#10;">Descendant संस्करण </string>
+    <!-- Build types, now with translations -->
+    <string name="build_type">निर्माण प्रकार</string>
+    <string name="descendant_official">आधिकारिक</string>
+    <!-- Device Model -->
+    <string name="descendant_device_model">डिवाइस मॉडल</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">स्क्रीन बंद होने पर फिंगरप्रिंट के साथ अनलॉक करें</string>
+    <string name="fod_gesture_summary">पहले स्क्रीन को जगाये बिना डिवाइस को अनलॉक करने की अनुमति देता है</string>
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">स्टाइल्स ऐप</string>
+    <string name="styles_app_summary">ऊपर दी हुई सैटिंग्स को एक सुविधाजनक ऐप में अनुकूलित करें </string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">द्वितीयक रंग</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">हेडलाइन / बॉडी फॉन्ट</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">आइकॉन आकृति</string>
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">ऑडियो प्रबंधन </string>
+    <string name="resume_audio_stream_title">ऑडियो पुनः प्रारंभ करें </string>
+    <string name="resume_audio_stream_summary">ऑडियो को स्वतः ही शुरू कर दें यदि इसे उपयोगकर्ता द्वारा वॉल्यूम पर अंतःक्रिया के कारण रोका गया (वॉल्यूम बार को शून्य पर लाना)</string>
+    <string name="pause_audio_stream_title">मीडिया को रोकें</string>
+    <string name="pause_audio_stream_summary">मीडिया को स्वतः ही रोक दें यदि मीडिया वॉल्यूम मौन कर दिया गया हो </string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">वॉल्यूम इंटरफ़ेस एक्स्ट्रा</string>
+    <string name="expand_immediately_title">वॉल्यूम पैनल में विस्तार बटन सक्षम करें</string>
+    <string name="expand_immediately_summary">वॉल्यूम पैनल में एक अतिरिक्त बटन दिखाएं जो आपको आधे-छिपे बार के साथ अंतःक्रिया किए बिना, सीधे इसे बहुपंक्तियों में विस्तारित करने देगा</string>
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">Descendant Guardia सक्षम करें </string>
+    <string name="descendant_guardia_enable_summary">Descendant Guardia का सक्षमीकरण आपको सचेत होने में सहायता करेगा जब ऐप्स अनुमति का निवेदन करती हैं यहां तक पृष्ठभूमि में भी </string>
+    <string name="descendant_guardia_exclude_gapps">गूगल ऐप्स को श्वेतसूची में डालें </string>
+    <string name="descendant_guardia_exclude_gapps_summary">यदि कोई गूगल ऐप अनुमति का निवेदन करती है तो इस फीचर के सक्षम होने से आपको कोई अधिसूचना प्राप्त नहीं होगी </string>
+    <string name="descendant_guardia_exclude_system_apps">सिस्टम ऐप्स को श्वेतसूची में डालें </string>
+    <string name="descendant_guardia_exclude_system_apps_summary">यदि कोई सिस्टम ऐप अनुमति का निवेदन करती है तो इस फीचर के सक्षम होने से आपको कोई अधिसूचना प्राप्त नहीं होगी </string>
+    <string name="descendant_guardia_alert_me_pc_title">सचेतक </string>
+    <string name="descendant_guardia_alert_me_title">सचेतक </string>
+    <string name="descendant_guardia_alert_me_summary">सचेतकों को सक्षम करें </string>
+    <string name="descendant_guardia_is_gps_alert_title">जीपीएस सचेतक</string>
+    <string name="descendant_guardia_is_gps_alert_summary">सचेतक दिखाएं जब जीपीएस प्रयोग होता है </string>
+    <string name="descendant_guardia_is_camera_alert_title">कैमरा सचेतक </string>
+    <string name="descendant_guardia_is_camera_alert_summary">सचेतक दिखाएं जब कैमरा प्रयोग होता है </string>
+    <string name="descendant_guardia_is_record_audio_alert_title">माइक्रोफोन सचेतक </string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">सचेतक दिखाएं जब माइक्रोफोन प्रयोग होता है </string>
+    <string name="descendant_guardia_is_phone_alert_title">फोन सचेतक </string>
+    <string name="descendant_guardia_is_phone_alert_summary">सचेतक दिखाएं जब फोन की अनुमति प्रयोग की जाती है </string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">क्लिपबोर्ड पठन सचेतक </string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">सचेतक दिखाएं जब क्लिपबोर्ड पठन की अनुमति प्रयोग की जाती है </string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">क्लिपबोर्ड लेखन सचेतक </string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">सचेतक दिखाएं जब क्लिपबोर्ड लेखन की अनुमति प्रयोग की जाती है </string>
+    <string name="descendant_guardia_notif_type_title">टोस्ट्स के बजाय अधिसूचनाओं का प्रयोग करें</string>
+    <string name="descendant_guardia_notif_type_summary">इस विकल्प के सक्षमीकरण से, अधिसूचना टोस्ट को प्रतिस्थापित कर देगी जब अनुमति प्रयोग का संकेत प्राप्त होगा </string>
+    <string name="descendant_guardia_description">Descendant Guardia आपकी निजता का संरक्षक है जो कि आपको यह समझने में सहायता करेगा कि ऐप्लिकेशन्स वास्तविक-समय में उन अनुमतियों का क्या करती हैं जो आपने उन्हें दी हैं </string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">श्वेत सूची</string>
+    <string name="descendant_guardia_notifications_title">अधिसूचना प्रकार</string>
+    <string name="descendant_guardia_alert_options">सचेतक प्रकार </string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">आपको जागरुक करने के लिए कि आपके उपकरण पर क्या हो रहा है आपका निजता रक्षक </string>
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">गूगल निजता सेवाएं </string>
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">क्या आपको सहायता की आवश्यकता है?</string>
+    <string name="descendant_support_summary">आधिकारिक टेलीग्राम सहायता समूह में शामिल होने के लिए यहां दबाएं</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
+    <string name="descendant_version">Descendant संस्करण </string>
+    <string name="descendant_version_default">अज्ञात</string>
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">सुलभ यूआई</string>
+    <string name="thumb_ui_summary">यह एक हाथ को चालू करेगा जिससे आप एक हाथ से उपयोग कर सकते हैं. </string>
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Descendant संग्रहण प्रबंधक </string>
+    <string name="descendant_storage_manager_summary">यह प्रबन्धक ऐप्स का कचरा स्वयं संभालेगा।\nयह एंड्रॉयड के स्वयं के प्रबंधक के साथ सहअस्तित्व में रह सकता है। </string>
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Descendant आरोग्य प्रबंधक</string>
+    <string name="descendant_health_manager_summary">यह प्रबंधक उपयोगकर्ताओं को यह पता लगाने में मदद करता है कि उनके स्वास्थ्य में हस्तक्षेप करने के लिए अपने स्मार्टफोन से कब और कैसे बचें</string>
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Descendant निष्क्रिय प्रबंधक</string>
+    <string name="descendant_idle_manager_summary">दक्षता सुनिश्चित करने के लिए Descendant का एल्गोरिथ्म (अनुशंसित)</string>
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"मेरे हैड्स-अप को मत छुओ "</string>
+    <string name="dont_touch_notification_summary">हैड्स-अप को छूने के बाद ऐप को खोलने से बचाएं</string>
+    <!-- reTicker -->
+    <string name="reticker_title">रीटिकर</string>
+    <string name="reticker_summary">अपनी अधिसूचनाओं को टिकर के नवप्रारूपित संस्करण से प्रतिस्थापित करें।\nसामान्य अधिसूचना से कम स्थान लेने वाला एवं कम फैलाव वाला </string>
+    <string name="reticker_colored_title">ऐप रंजित पृष्ठभूमि का प्रयोग करे </string>
+    <string name="reticker_colored_summary">अधिसूचक ऐप के प्रमुख रंग का प्रयोग कर रीटिकर के पृष्ठभूमि रंग को प्रतिस्थापित करें</string>
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Descendant घड़ी प्रवाह</string>
+    <string name="descendant_clock_flow_title">घड़ी प्रवाह सक्षम करें</string>
+    <string name="descendant_clock_flow_summary">Descendant घड़ी प्रवाह का सक्षमीकरण,  लॉकस्क्रीन और एम्बिएंट अधिसूचना पर आपको अलग अलग यह देखने का एक नया तरीका प्रदान करेगा कि आपको किस ऐप से अधिसूचना जारी प्राप्त हुई है </string>
+    <string name="descendant_clock_flow_selection">Descendant घड़ी प्रवाह शैली का चयन करें</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Descendant घड़ी प्रवाह थीम्स</string>
+    <string name="descendant_clock_flow_selector_default">पूर्वनिर्धारित</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">हंस</string>
+    <string name="descendant_clock_flow_selector_chameleon">गिरगिट</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">वेनेसियन मास्क</string>
+    <string name="descendant_clock_flow_selector_birdie">पक्षी </string>
+    <string name="descendant_clock_flow_selector_cityline">शहर रेखा </string>
+    <string name="descendant_clock_flow_selector_earth">पृथ्वी</string>
+    <string name="descendant_clock_flow_selector_moon">चन्द्रमा</string>
+    <string name="descendant_clock_flow_selector_pinwheel">पिनचक्र</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">स्क्रीनशॉट शटर ध्वनि</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">टॉर्च सक्रिय करें </string>
+    <string name="double_tap_power_flashlight_title">स्क्रीन बंद पावर बटन टॉर्च</string>
+    <string name="torch_power_button_gesture_none">अक्षम</string>
+    <string name="torch_power_button_gesture_dt">टॉर्च टॉगल करने के लिए पावर बटन दो बार दबाएं</string>
+    <string name="torch_power_button_gesture_lp">टॉर्च टॉगल करने के लिए पावर बटन को लंबे समय तक दबाएं</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">संगीत ट्रैक छोड़ें</string>
+    <string name="volume_skiptrack_title">वॉल्यूम बटन से गाना बदलें</string>
+    <string name="volume_skiptrack_summary">वॉल्यूम बटन देर तक दबाने पर गाना बदलें भले ही वह किसी भी ऐप जैसे कि Spotify द्वारा टीवी या कंप्यूटर पर चल रहा हो ( इसके लिए ऐप चालू रहना और अधिसूचना दिखाना जरूरी है)।</string>
+    <string name="pulse_on_new_tracks_title">एंबिएंट संगीत टिकर</string>
+    <string name="pulse_on_new_tracks_summary">नया गाना चलने पर एंबिएंट डिस्प्ले दिखाएं। अगले गाने पर जाने के लिए गाने की जानकारी पर दो बार दबाएं।</string>
+    <string name="pulse_on_new_tracks_soli_summary">नया संगीत चलने पर एंबिएंट डिस्प्ले दिखाएं</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">जैस्चर बार की लंबाई </string>
+    <string name="hidden_label">अदृश्य </string>
+    <string name="long_label">लंबा </string>
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">स्क्रीन बंद करने के लिए दो बार स्पर्श करें</string>
+    <string name="double_tap_sleep_lockscreen_summary">स्क्रीन बंद करने के लिए दो बार लॉक स्क्रीन स्पर्श करें</string>
+    <string name="lock_screen_gestures_title">इशारे</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+</resources>
