@@ -98,6 +98,7 @@
 
       <Preference
         android:key="three_finger_gesture_summary"
+        android:icon="@drawable/ic_three_finger_gesture"
         android:title="@string/three_finger_gesture"
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
