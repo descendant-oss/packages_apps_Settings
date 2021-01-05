@@ -27,6 +27,13 @@
         android:icon="@drawable/ic_translate_24dp"
         android:fragment="com.android.settings.localepicker.LocaleListEditor" />
 
+    <org.descendant.support.preferences.SystemSettingListPreference
+        android:key="weather_metrics"
+        android:icon="@drawable/ic_weather_metrics"
+        android:title="@string/weather_metrix_title"
+        android:entries="@array/weather_metrics_entries"
+        android:entryValues="@array/weather_metrics_values"/>
+
     <PreferenceCategory
         settings:allowDividerBelow="false"
         settings:allowDividerAbove="false"

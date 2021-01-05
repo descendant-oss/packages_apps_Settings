@@ -144,4 +144,10 @@
     <string name="lock_screen_gestures_title">Gesti</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+
+     <!-- Weather Metrics-->
+     <string name="weather_metrix_title">Notazione Meteo</string>
+     <string name="weather_metrics_celsius">C°</string>
+     <string name="weather_metrics_fahrenheit">°F</string>
+
 </resources>

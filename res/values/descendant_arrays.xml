@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="weather_metrics_entries" translatable="false">
+        <item>@string/weather_metrics_celsius</item>
+        <item>@string/weather_metrics_fahrenheit</item>
+    </string-array>
+
+    <string-array name="weather_metrics_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

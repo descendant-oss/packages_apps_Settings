@@ -172,4 +172,9 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
+     <!-- Weather Metrics-->
+     <string name="weather_metrix_title">Weather Metrics</string>
+     <string name="weather_metrics_celsius">C°</string>
+     <string name="weather_metrics_fahrenheit">°F</string>
+
 </resources>
