@@ -177,4 +177,8 @@
      <string name="weather_metrics_celsius">C°</string>
      <string name="weather_metrics_fahrenheit">°F</string>
 
+     <!-- Descendant Health Dashboard-->
+     <string name="descendant_health_dashboard_title">Descendant Health</string>
+     <string name="descendant_health_dashboard_summary">COVID-19 data, sleep helper, eyes protector</string>
+
 </resources>
