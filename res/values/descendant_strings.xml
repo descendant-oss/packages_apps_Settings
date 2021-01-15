@@ -22,9 +22,6 @@
 
     <!-- Device Model -->
     <string name="descendant_device_model">Device Model</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Unlock with fingerprint when the screen is off</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 
     <!-- Descendant redirect styles app -->
     <string name="styles_app_title">Styles app</string>
