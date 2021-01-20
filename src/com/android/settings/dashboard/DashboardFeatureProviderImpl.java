@@ -83,12 +83,15 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
     private static final String META_DATA_KEY_INTENT_ACTION = "com.android.settings.intent.action";
     private static final String PACKAGENAME_GMS = "com.google.android.gms";
     private static final String PACKAGENAME_WELLBEING = "com.google.android.apps.wellbeing";
+    private static final String[] PARTS = {"xiaomi", "realme", "oneplus", "asus", "parts", "lineage"};
 
     protected final Context mContext;
 
     private final MetricsFeatureProvider mMetricsFeatureProvider;
     private final CategoryManager mCategoryManager;
     private final PackageManager mPackageManager;
+
+    private boolean mIsIconOverridden;
 
     public DashboardFeatureProviderImpl(Context context) {
         mContext = context.getApplicationContext();
@@ -359,18 +362,15 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
 
     @VisibleForTesting
     void bindIcon(Preference preference, Tile tile, boolean forceRoundedIcon) {
+        mIsIconOverridden = false;
         // Use preference context instead here when get icon from Tile, as we are using the context
         // to get the style to tint the icon. Using mContext here won't get the correct style.
         final Icon tileIcon = tile.getIcon(preference.getContext());
         if (tileIcon != null) {
             Drawable iconDrawable = tileIcon.loadDrawable(preference.getContext());
-            if (tile.getPackageName().equals(PACKAGENAME_GMS)
-                    && tile.getTitle(preference.getContext()).toString().equalsIgnoreCase("Google")) {
-                iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_google_settings);
-            } else if (tile.getPackageName().equals(PACKAGENAME_WELLBEING)) {
-                iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_wellbeing_settings);
-            } else if (forceRoundedIcon
-                    && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName())) {
+            iconDrawable = homepageOverride(tileIcon, preference, tile);
+            if (forceRoundedIcon
+                    && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName()) && !mIsIconOverridden) {
                 iconDrawable = new AdaptiveIcon(mContext, iconDrawable);
                 ((AdaptiveIcon) iconDrawable).setBackgroundColor(mContext, tile);
             }
@@ -401,6 +401,26 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
             });
         }
     }
+
+    private Drawable homepageOverride(Icon tileIcon, Preference preference, Tile tile) {
+            if (tile.getPackageName().equals(PACKAGENAME_GMS)
+                    && tile.getTitle(preference.getContext()).toString().equalsIgnoreCase("Google")) {
+                mIsIconOverridden = true;
+                return preference.getContext().getDrawable(R.drawable.ic_homepage_google_settings);
+            } else if (tile.getPackageName().equals(PACKAGENAME_WELLBEING)) {
+                mIsIconOverridden = true;
+                return preference.getContext().getDrawable(R.drawable.ic_homepage_wellbeing_settings);
+            }
+            for(int i=0;i < PARTS.length; i++) {
+                if (tile.getPackageName().toLowerCase().contains(PARTS[i])){
+                    mIsIconOverridden = true;
+                    return preference.getContext().getDrawable(R.drawable.ic_homepage_device_parts);
+                }
+            }
+            mIsIconOverridden = false;
+            return tileIcon.loadDrawable(preference.getContext());
+    }
+
 
     private void launchIntentOrSelectProfile(FragmentActivity activity, Tile tile, Intent intent,
             int sourceMetricCategory) {
