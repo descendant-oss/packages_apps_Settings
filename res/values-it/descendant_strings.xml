@@ -154,4 +154,8 @@
      <string name="descendant_health_dashboard_title">Descendant Health</string>
      <string name="descendant_health_dashboard_summary">Dati COVID-19, funzionalità salute, protezione occhi</string>
 
+     <!-- Traffic monitor -->
+     <string name="network_traffic_state_title">Monitor di rete</string>
+     <string name="network_traffic_state_summary">Abilita il monitor di rete nella statusbar</string>
+
 </resources>

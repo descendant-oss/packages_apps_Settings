@@ -181,4 +181,8 @@
      <string name="descendant_health_dashboard_title">Descendant Health</string>
      <string name="descendant_health_dashboard_summary">COVID-19 data, sleep helper, eyes protector</string>
 
+     <!-- Traffic monitor -->
+     <string name="network_traffic_state_title">Network monitor</string>
+     <string name="network_traffic_state_summary">Enables statusbar network monitor</string>
+
 </resources>
