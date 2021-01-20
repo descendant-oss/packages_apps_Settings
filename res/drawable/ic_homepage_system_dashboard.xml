@@ -24,10 +24,17 @@
             android:color="@color/homepage_system_background" />
     </item>
 
+    <item>
+        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+            android:width="@dimen/dashboard_tile_image_size"
+            android:height="@dimen/dashboard_tile_image_size"
+            android:color="@color/desaturize_dashboard_color" />
+    </item>
+
     <item
         android:width="@dimen/dashboard_tile_foreground_image_size"
         android:height="@dimen/dashboard_tile_foreground_image_size"
         android:start="@dimen/dashboard_tile_foreground_image_inset"
         android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_system_dashboard_white" />
+        android:drawable="@drawable/ic_homepage_system_dashboard_internal" />
 </layer-list>

@@ -1,4 +1,5 @@
 <resources>
     <!-- Descendant background -->
     <color name="dashboard_background_color">@*android:color/settings_dashboard_background_color</color>
+    <color name="desaturize_dashboard_color">#cc000000</color>
 </resources>
