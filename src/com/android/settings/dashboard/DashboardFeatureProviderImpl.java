@@ -414,6 +414,7 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
             for(int i=0;i < PARTS.length; i++) {
                 if (tile.getPackageName().toLowerCase().contains(PARTS[i])){
                     mIsIconOverridden = true;
+                    Log.d("Dil3mm4", "value: "+ String.valueOf(getDashboardKeyForTile(tile)));
                     return preference.getContext().getDrawable(R.drawable.ic_homepage_device_parts);
                 }
             }
