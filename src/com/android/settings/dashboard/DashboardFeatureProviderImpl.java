@@ -369,6 +369,7 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
         if (tileIcon != null) {
             Drawable iconDrawable = tileIcon.loadDrawable(preference.getContext());
             iconDrawable = homepageOverride(tileIcon, preference, tile);
+            Log.d("Dil3mm4", "value: "+ String.valueOf(getDashboardKeyForTile(tile)));
             if (forceRoundedIcon
                     && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName()) && !mIsIconOverridden) {
                 iconDrawable = new AdaptiveIcon(mContext, iconDrawable);
@@ -411,6 +412,7 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
                 mIsIconOverridden = true;
                 return preference.getContext().getDrawable(R.drawable.ic_homepage_wellbeing_settings);
             }
+            Log.d("Dil3mm4", "value: "+ String.valueOf(getDashboardKeyForTile(tile)));
             for(int i=0;i < PARTS.length; i++) {
                 if (tile.getPackageName().toLowerCase().contains(PARTS[i])){
                     mIsIconOverridden = true;
